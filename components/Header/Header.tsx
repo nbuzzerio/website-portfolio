@@ -1,14 +1,9 @@
 import Link from "next/link";
-import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
-
-import jwt from 'jsonwebtoken'
 
 function Header() {
   const [dropDown, setDropDown] = useState(false);
   const [loaded, setLoaded] = useState(false);
-  
-  const router = useRouter()
 
   useEffect(() => {
 

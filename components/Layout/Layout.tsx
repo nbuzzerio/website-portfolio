@@ -5,8 +5,8 @@ function Layout({ children }: { children : React.ReactNode }){
 
     return (
       <>
-        <Header/>
-            <div className="page-container pt-[80px] lg:pt-[130px]">
+        {/* <Header/> */}
+            <div className="page-container">
               { children }
             </div>
         <Footer/>
