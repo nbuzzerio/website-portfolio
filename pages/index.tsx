@@ -1,8 +1,49 @@
 import Head from 'next/head'
+import { useEffect, useState } from 'react'
 
 export default function Home() {
 
+  const [lineOne, setLineOne] = useState('')
+  const [lineTwo, setLineTwo] = useState('')
+  const [loaded, setLoaded] = useState(false)
 
+  useEffect(() => {
+    const lineOneCursor = document.querySelector<HTMLSpanElement>('.line-one.cursor')
+    const lineTwoCursor = document.querySelector<HTMLSpanElement>('.line-two.cursor')
+    const tagline = document.querySelector<HTMLSpanElement>('.tagline')
+
+    if (loaded) {
+      setTimeout(() => {
+        if (lineOne.length < textOne.length) {
+          setLineOne(textOne.slice(0, lineOne.length + 1))
+          if (lineOne.length + 1 === textOne.length) {
+            lineOneCursor.style.display = 'none'
+            lineTwoCursor.style.display = 'inline-block'
+          }
+        } else if (lineTwo.length < textTwo.length) {
+          setLineTwo(textTwo.slice(0, lineTwo.length + 1))
+          if (lineTwo.length + 1 === textTwo.length - 1) {
+            tagline.style.textShadow = '0 0 7px #fff'
+            tagline.style.transform = 'scale(1.05)'
+          } else if (lineTwo.length + 1 === textTwo.length) {
+            lineTwoCursor.style.display = 'none'
+            tagline.style.transform = 'scale(1.0)'
+          }
+        }
+      }, 100)
+    } else {
+      setTimeout(() => {
+        lineOneCursor.style.display = 'inline-block'
+        setLoaded(true)
+      }, 2000)
+    }
+
+    return () => { }
+  }, [lineOne, lineTwo, loaded])
+
+  const textOne = 'I develop full stack'
+  const textTwo = 'applications for the web.'
+  
   return (
     <div className='bg-black h-screen'>
       <Head>
@@ -11,12 +52,21 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='main'>
-        <h1 className='py-72 text-9xl text-primary text-shadow text-center uppercase'>
-          <span className="group-1 animate-fade opacity-0">Hi.</span> <span className="group-1 animate-clip">I'm <span className="text-shadow-white text-white-dark">Nick</span>.</span>
+      <main className='main flex flex-col justify-center items-center'>
+        <h1 className='py-72 pb-32 text-9xl text-primary text-shadow text-center uppercase'>
+          <span className="animate-fade opacity-0">Hi. </span>
+          <span className="text-wrapper inline-block overflow-hidden translate-y-4">
+            <span className="inline-block animate-jump">
+              I'm
+              <span className="text-shadow-white text-white-dark"> Nick</span>
+              .</span>
+          </span>
         </h1>
-        
-
+        <p className="tagline transition-opacity text-6xl text-slate-300 text-center">
+          <span className="inline-block py-1">{lineOne}<span className="line-one cursor hidden"> </span></span>
+          <br />
+          <span className="inline-block py-1">{lineTwo}<span className="line-two cursor hidden"></span></span>
+        </p>
       </main>
     </div>
   )

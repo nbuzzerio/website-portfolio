@@ -68,3 +68,17 @@
                      0px 0px 10px #00000033;
     }
 }
+
+.tagline {
+    transition: .5s;
+}
+
+.cursor::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 4%;
+    border-right: 5px solid rgb(203 213 225);
+    transform: translateY(-48px);
+    @apply animate-blink;
+}
