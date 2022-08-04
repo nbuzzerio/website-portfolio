@@ -14,6 +14,7 @@ module.exports = {
         jump: "jump 0.7s cubic-bezier(0.42, 0, 0.59, 1.69) 1s both",
         expand: "expand 0.7s ease-out both",
         contract: "contract 0s ease-out both",
+        accordion: "accordion 0.7s ease-out both",
       },
       colors: {
         'black-light': '#333',
@@ -49,12 +50,16 @@ module.exports = {
         },
         expand: {
           "0%": { 'width': '10%' },
-          "100%": { 'width': '75%' },
-        },
-        contract: {
-          "0%": { 'width': '75%' },
           "100%": { 'width': '100%' },
         },
+        contract: {
+          "0%": { 'width': '150%' },
+          "100%": { 'width': '100%' },
+        },
+        accordion: {
+          "0%": { 'height': '0%' },
+          "100%": { 'height': '100%' },
+        }
       },
     },
   },

@@ -54,7 +54,7 @@ export default function Home() {
       </Head>
 
       <main className='main flex flex-col justify-center items-center'>
-        <h1 className='py-72 pb-32 text-9xl text-primary text-shadow text-center uppercase'>
+        <h1 className='py-24 sm:pt-72 pb-32 text-6xl sm:text-9xl text-primary text-shadow text-center uppercase'>
           <span className="animate-fade opacity-0">Hi. </span>
           <span className="text-wrapper inline-block overflow-hidden translate-y-4">
             <span className="inline-block animate-jump">
@@ -63,11 +63,12 @@ export default function Home() {
               .</span>
           </span>
         </h1>
-        <p className="tagline transition-opacity text-6xl text-slate-300 text-center">
+        <p className="tagline transition-opacity text-4xl sm:text-6xl text-slate-300 text-center">
           <span className="inline-block py-1">{lineOne}<span className="line-one cursor hidden"> </span></span>
           <br />
           <span className="inline-block py-1">{lineTwo}<span className="line-two cursor hidden"></span></span>
         </p>
+        <div className="scroll-button text-white text-5xl py-32 mb-72 animate-bounce cursor-pointer"><a href="#about">\/</a></div>
         <Technologies />
       </main>
     </div>
