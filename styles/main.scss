@@ -82,3 +82,15 @@
     transform: translateY(-48px);
     @apply animate-blink;
 }
+
+//techs
+.tech-card:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; 
+    backdrop-filter: blur(5px);
+  }

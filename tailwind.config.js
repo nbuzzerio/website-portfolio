@@ -12,12 +12,14 @@ module.exports = {
         clip: "clip 1.5s ease-out 1s both",
         fade: "fade 1s ease-out forwards",
         jump: "jump 0.7s cubic-bezier(0.42, 0, 0.59, 1.69) 1s both",
+        expand: "expand 0.7s ease-out both",
+        contract: "contract 0s ease-out both",
       },
       colors: {
         'black-light': '#333',
         'white-dark': '#ccc',
         'primary': {
-          ligher: "#C41C1C",
+          lighter: "#C41C1C",
           light: "#A30606",
           DEFAULT: "#820000",
           dark: "#5C0000",
@@ -44,6 +46,14 @@ module.exports = {
         jump: {
           "0%": { 'transform': 'translateY(110px)' },
           "100%": { 'transform': 'translateY(0px)' },
+        },
+        expand: {
+          "0%": { 'width': '10%' },
+          "100%": { 'width': '75%' },
+        },
+        contract: {
+          "0%": { 'width': '75%' },
+          "100%": { 'width': '100%' },
         },
       },
     },
