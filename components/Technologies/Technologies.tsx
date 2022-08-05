@@ -1,3 +1,5 @@
+import handleClick from "@/public/helper/technologies_handleClick";
+
 const data = [
   {
     img: "https://nb-portfolio-images.s3.amazonaws.com/JavaScriptIcon.png",
@@ -125,7 +127,7 @@ function Technologies() {
   const techs = data.map((tech, index) => {
     return (
       <div
-        className={`tech-card ${tech.name} m-3 flex w-2/12 cursor-pointer flex-col items-start overflow-hidden rounded-3xl bg-primary/50 transition-transform delay-75 duration-150 hover:scale-105 hover:animate-bounce lg:flex-row lg:bg-primary/25`}
+        className={`tech-card ${tech.name} m-3 flex w-2/12 cursor-pointer flex-col items-start overflow-hidden rounded-3xl bg-primary/50 transition-transform delay-75 duration-150 hover:scale-125 lg:flex-row lg:bg-primary/25`}
         key={index}
         onClick={(e) => handleClick(e)}
       >
@@ -143,82 +145,19 @@ function Technologies() {
           <h3 className="tech__info text-center text-5xl text-white underline">
             {tech.name}
           </h3>
-          <p className="tech_info-desc indent-16 py-10 text-base sm:text-2xl text-white xl:text-2xl 2xl:text-4xl">{tech.desc}</p>
+          <p className="tech_info-desc py-10 indent-16 text-base text-white sm:text-2xl xl:text-2xl 2xl:text-4xl">
+            {tech.desc}
+          </p>
         </div>
       </div>
     );
   });
 
-  const handleClick = function (e: any) {
-    let card = e.target;
-    let cardClasses = Array.prototype.slice.call(card.classList);
-    console.log(card);
-
-    if (cardClasses.includes("tech-card")) {
-      card = card.querySelector(".tech-icon");
-      cardClasses = Array.prototype.slice.call(card.classList);
-    }
-
-    if (cardClasses.includes("animate-expand")) {
-      card.classList.add("animate-contract");
-      card.classList.remove("animate-expand");
-      card.classList.remove("lg:p-20");
-      card.classList.remove("sm:px-48");
-      card.classList.remove("px-10");
-      card.classList.remove("py-10");
-      card.parentElement.parentElement.classList.remove("absolute");
-      card.parentElement.parentElement.classList.remove("sm:w-[88%]");
-      card.parentElement.parentElement.classList.remove("w-[95%]");
-      card.parentElement.parentElement.classList.add("w-2/12");
-      card.parentElement.parentElement.classList.remove("p-10");
-      card.parentElement.parentElement.classList.remove("z-10");
-      card.parentElement.parentElement.classList.remove("scale-105");
-      card.parentElement.parentElement.classList.add("hover:scale-105");
-      card.parentElement.parentElement.classList.add("hover:animate-bounce");
-      card.parentElement.parentElement
-        .querySelector(".tech__info-wrapper")
-        .classList.add("hidden");
-    } else if (cardClasses.includes("tech-icon")) {
-      card.classList.remove("animate-contract");
-      card.classList.add("animate-expand");
-      card.classList.add("lg:p-20");
-      card.classList.add("sm:px-48");
-      card.classList.add("px-10");
-      card.classList.add("py-10");
-      card.parentElement.parentElement.classList.add("absolute");
-      card.parentElement.parentElement.classList.add("sm:w-[88%]");
-      card.parentElement.parentElement.classList.add("w-[95%]");
-      card.parentElement.parentElement.classList.remove("w-2/12");
-      card.parentElement.parentElement.classList.add("p-10");
-      card.parentElement.parentElement.classList.add("z-10");
-      card.parentElement.parentElement.classList.add("scale-105");
-      card.parentElement.parentElement.classList.remove("hover:scale-105");
-      card.parentElement.parentElement.classList.remove("hover:animate-bounce");
-      card.parentElement.parentElement
-        .querySelector(".tech__info-wrapper")
-        .classList.remove("hidden");
-    } else if (cardClasses.includes("img-wrapper")) {
-      const cardIcon = card.querySelector(".tech-icon");
-      cardIcon.classList.add("animate-contract");
-      cardIcon.classList.remove("animate-expand");
-      card.classList.remove("lg:p-20");
-      card.classList.remove("sm:px-48");
-      card.classList.remove("px-10");
-      card.classList.remove("py-10");
-      cardIcon.parentElement.parentElement.classList.remove("absolute");
-      cardIcon.parentElement.parentElement.classList.remove("sm:w-[88%]");
-      cardIcon.parentElement.parentElement.classList.remove("w-[95%]");
-      cardIcon.parentElement.parentElement.classList.add("w-2/12");
-      cardIcon.parentElement.parentElement.classList.remove("p-10");
-      cardIcon.parentElement.parentElement.classList.remove("z-10");
-      cardIcon.parentElement.parentElement.classList.remove("scale-105");
-      card.parentElement.classList.add("hover:scale-105");
-      card.parentElement.classList.add("hover:animate-bounce");
-    }
-  };
-
   return (
-    <section id="about" className="technologies relative flex w-full max-w-[1920px] flex-col py-5 sm:py-32 lg:flex-row-reverse">
+    <section
+      id="about"
+      className="technologies relative flex w-full max-w-[1920px] flex-col py-5 sm:py-32 lg:flex-row-reverse"
+    >
       <div className="left-panel flex w-full flex-col items-center justify-start sm:px-5 lg:w-6/12 lg:px-20 2xl:px-32  ">
         <h1 className="py-10 text-5xl text-white underline lg:text-7xl">
           About Me
