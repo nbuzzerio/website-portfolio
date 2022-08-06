@@ -127,25 +127,30 @@ function Technologies() {
   const techs = data.map((tech, index) => {
     return (
       <div
-        className={`tech-card ${tech.name} m-3 flex w-2/12 cursor-pointer flex-col items-start overflow-hidden rounded-3xl bg-primary/50 transition-transform delay-75 duration-150 hover:scale-125 lg:flex-row lg:bg-primary/25`}
+        className={`tech-card ${tech.name} pointer-events-none absolute m-3 flex aspect-square w-[20%] cursor-pointer flex-col items-start overflow-hidden rounded-3xl bg-primary/50 p-3 transition-transform delay-75 duration-150 hover:scale-125 lg:flex-row lg:bg-primary/25`}
         key={index}
         onClick={(e) => handleClick(e)}
+        style={{
+          transform: `translate(${(index % 4) * 125}%, ${
+            Math.floor(index / 4) * 125
+          }%)`,
+        }}
       >
-        <div className="img-wrapper w-full">
+        <div className="img-wrapper pointer-events-none w-full h-full">
           <img
             src={tech.img}
             alt={`${tech.name} Icon`}
-            className={`tech-icon ${tech.name} w-full`}
+            className={`tech-icon ${tech.name} pointer-events-auto w-full`}
           />
         </div>
         <div className="tech__info-wrapper pointer-events-none hidden max-h-[600px] w-full animate-accordion">
-          <button className="close absolute top-5 right-10 text-7xl text-white">
+          <button className="close pointer-events-auto absolute top-5 right-10 text-7xl text-white">
             X
           </button>
           <h3 className="tech__info text-center text-5xl text-white underline">
             {tech.name}
           </h3>
-          <p className="tech_info-desc py-10 indent-16 text-base text-white sm:text-2xl xl:text-2xl 2xl:text-4xl">
+          <p className="tech_info-desc ml-5 p-10 indent-16 text-base text-white sm:text-lg xl:text-2xl 2xl:text-2xl">
             {tech.desc}
           </p>
         </div>
@@ -183,7 +188,7 @@ function Technologies() {
         <h2 className="py-10 text-5xl text-white underline lg:text-7xl">
           Technologies
         </h2>
-        <div className="tech-wrapper flex flex-wrap justify-between">
+        <div className="tech-wrapper relative flex aspect-square w-full flex-wrap justify-between">
           {techs}
         </div>
       </div>

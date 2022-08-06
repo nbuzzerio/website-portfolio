@@ -15,11 +15,15 @@ module.exports = {
         expand: "expand 0.7s ease-out both",
         contract: "contract 0s ease-out both",
         accordion: "accordion 0.7s ease-out both",
+        corner: "corner 3s ease-out both",
+        cornerActive: "cornerActive 3s ease-out both",
+        cornerInfo: "cornerInfo 5s ease-out both",
+        cornerClose: "cornerClose 1s ease-out 3s both",
       },
       colors: {
-        'black-light': '#333',
-        'white-dark': '#ccc',
-        'primary': {
+        "black-light": "#333",
+        "white-dark": "#ccc",
+        primary: {
           lighter: "#C41C1C",
           light: "#A30606",
           DEFAULT: "#820000",
@@ -41,25 +45,56 @@ module.exports = {
           "100%": { opacity: "1" },
         },
         clip: {
-          "0%": { 'clip-path': 'polygon(0% 0, 0% 0, 0% 100%, 0% 100%)' },
-          "100%": { 'clip-path': 'polygon(0 0, 100% 0, 100% 100%, 0 100%)' },
+          "0%": { "clip-path": "polygon(0% 0, 0% 0, 0% 100%, 0% 100%)" },
+          "100%": { "clip-path": "polygon(0 0, 100% 0, 100% 100%, 0 100%)" },
         },
         jump: {
-          "0%": { 'transform': 'translateY(110px)' },
-          "100%": { 'transform': 'translateY(0px)' },
+          "0%": { transform: "translateY(110px)" },
+          "100%": { transform: "translateY(0px)" },
         },
         expand: {
-          "0%": { 'width': '10%' },
-          "100%": { 'width': '100%' },
+          "0%": { width: "10%" },
+          "100%": { width: "100%" },
         },
         contract: {
-          "0%": { 'width': '150%' },
-          "100%": { 'width': '100%' },
+          "0%": { width: "150%" },
+          "100%": { width: "100%" },
         },
         accordion: {
-          "0%": { 'height': '0%' },
-          "100%": { 'height': '100%' },
-        }
+          "0%": { height: "0%" },
+          "100%": { height: "100%" },
+        },
+        corner: {
+          "0%": { "z-index": "10" },
+          "30%": { transform: "translate(0)", width: "100%" },
+          "60%": {
+            transform: "translate(0)",
+            width: "100%",
+            "aspect-ratio": "1/1",
+          },
+          "100%": {
+            transform: "translate(-5%, -10%)",
+            width: "250%",
+            " z-index": "10",
+            "aspect-ratio": "2/1",
+          },
+        },
+        cornerActive: {
+          "0%": { opacity: ".30", transform: "translate(0)" },
+          "42.5%": { transform: "translate(0)" },
+          "60%": { transform: "translate(35%, 35%)" },
+          "80%": { opacity: "1" },
+        },
+        cornerInfo: {
+          "25%": { height: "100%", width: "0%" },
+          "45%": { width: "100%" },
+          "65%": { opacity: "0" },
+          "100%": { height: "100%", width: "100%", opacity: "1" },
+        },
+        cornerClose: {
+          "20%": { height: "20%", opacity: "0" },
+          "100%": { height: "20%", opacity: "1" },
+        },
       },
     },
   },

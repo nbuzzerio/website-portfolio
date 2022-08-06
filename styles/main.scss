@@ -84,6 +84,23 @@
 }
 
 //techs
+.tech-card.corner {
+    color: blue;
+    @apply animate-corner;
+    
+    .corner-active {
+        @apply animate-cornerActive translate-x-0 translate-y-0;
+    }
+    .tech__info-wrapper.active {
+        text-shadow: 0 0 7px #000;
+        @apply animate-cornerInfo block h-0 w-0 opacity-0 overflow-hidden;
+        
+        .close {
+            text-shadow: 0 0 7px #000;
+            @apply animate-cornerClose block h-0 opacity-0 overflow-hidden;
+        }
+    }
+}
 .tech-card:before {
     content: "";
     position: absolute;
