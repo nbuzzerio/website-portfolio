@@ -1,0 +1,230 @@
+[
+    {
+      "img": "/images/techs/javascript.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "JavaScript",
+      "docs": "https://developer.mozilla.org/en-US/docs/Web/javascript"
+    },
+    {
+      "img": "/images/techs/typescript.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "TypeScript",
+      "docs": "https://www.typescriptlang.org/docs/"
+    },
+    {
+        "img": "/images/techs/python.png",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+        "name": "Python",
+        "docs": "https://docs.python.org/3/"
+    },
+    {
+        "img": "/images/techs/csharp.png",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+        "name": "C#",
+        "docs": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+    },
+    {
+        "img": "/images/techs/php.png",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+        "name": "PHP",
+        "docs": "https://www.php.net/docs.php"
+    },
+    {
+      "img": "/images/techs/react.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "React",
+      "docs": "https://reactjs.org/"
+    },
+    {
+      "img": "/images/techs/redux.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Redux",
+      "docs": "https://redux.js.org/"
+    },
+    {
+      "img": "/images/techs/html.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "HTML",
+      "docs": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    },
+    {
+      "img": "/images/techs/css.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "CSS",
+      "docs": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    },
+    {
+      "img": "/images/techs/tailwindcss.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Tailwind",
+      "docs": "https://tailwindcss.com/docs/installation"
+    },
+    {
+      "img": "/images/techs/sass.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Sass",
+      "docs": "https://sass-lang.com/documentation/"
+    },
+    {
+      "img": "/images/techs/jquery.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "JQuery",
+      "docs": "https://api.jquery.com/"
+    },
+    {
+      "img": "/images/techs/nextjs.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "NextJS",
+      "docs": "https://nextjs.org/docs"
+    },
+    {
+      "img": "/images/techs/nodejs.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "NodeJS",
+      "docs": "https://nodejs.org/en/docs/"
+    },
+    {
+      "img": "/images/techs/expressjs.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Express",
+      "docs": "https://expressjs.com/"
+    },
+    {
+      "img": "/images/techs/socketio.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "SocketIo",
+      "docs": "https://socket.io/docs/v3/index.html"
+    },
+    {
+      "img": "/images/techs/jwt.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "JWT",
+      "docs": "https://www.npmjs.com/package/jsonwebtoken"
+    },
+    {
+      "img": "/images/techs/postgresql.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Postgress",
+      "docs": "https://www.postgresql.org/docs/"
+    },
+    {
+      "img": "/images/techs/redis.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Redis",
+      "docs": "https://redis.io/docs/"
+    },
+    {
+      "img": "/images/techs/mongodb.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "MongoDB",
+      "docs": "https://docs.mongodb.com/"
+    },
+    {
+      "img": "/images/techs/mongoose.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Mongoose",
+      "docs": "https://mongoosejs.com/docs/"
+    },
+    {
+      "img": "/images/techs/mysql.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "MySQL",
+      "docs": "https://dev.mysql.com/doc/"
+    },
+    {
+      "img": "/images/techs/sequelize.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Sequelize",
+      "docs": "https://sequelize.org/"
+    },
+    {
+      "img": "/images/techs/jest.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Jest",
+      "docs": "https://jestjs.io/docs/getting-started"
+    },
+    {
+      "img": "/images/techs/testing-library.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Testing Library",
+      "docs": "https://testing-library.com/docs/"
+    },
+    {
+      "img": "/images/techs/cypress.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Cypress",
+      "docs": "https://docs.cypress.io/guides/overview/why-cypress"
+    },
+    {
+        "img": "/images/techs/new-relic.png",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "New Relic",
+      "docs": "https://docs.newrelic.com/"
+    },
+    {
+        "img": "/images/techs/aws.png",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+        "name": "AWS",
+        "docs": "https://docs.aws.amazon.com/index.html"
+    },
+    {
+      "img": "/images/techs/nginx.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "NGinX",
+      "docs": "https://nginx.org/en/docs/"
+    },
+    {
+      "img": "/images/techs/docker.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Docker",
+      "docs": "https://docs.docker.com/"
+    },
+    {
+      "img": "/images/techs/git.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Git",
+      "docs": "https://git-scm.com/doc"
+    },
+    {
+      "img": "/images/techs/webpack.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Webpack",
+      "docs": "https://webpack.js.org/"
+    },
+    {
+      "img": "/images/techs/npm.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "NPM",
+      "docs": "https://docs.npmjs.com/"
+    },
+    {
+        "img": "/images/techs/figma.png",
+        "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+        "name": "Figma",
+        "docs": "https://www.figma.com/best-practices/guide-to-developer-handoff/components-styles-and-documentation/"
+    },
+    {
+      "img": "/images/techs/gulp.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Gulp",
+      "docs": "https://gulpjs.com/docs/en/getting-started/quick-start"
+    },
+    {
+      "img": "/images/techs/github.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Github",
+      "docs": "https://github.com/"
+    },
+    {
+      "img": "/images/techs/bitbucket.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Bitbucket",
+      "docs": "https://bitbucket.org/"
+    },
+    {
+      "img": "/images/techs/jira.png",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "name": "Jira",
+      "docs": "https://confluence.atlassian.com/jira"
+    }
+]

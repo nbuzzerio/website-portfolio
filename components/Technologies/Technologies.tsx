@@ -1,130 +1,7 @@
 import handleClick from "@/public/helper/technologies_handleClick";
 
-const data = [
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/JavaScriptIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "JavaScript",
-    docs: "https://developer.mozilla.org/en-US/docs/Web/javascript",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/ReactIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "React",
-    docs: "https://reactjs.org/",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/ReduxIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "Redux",
-    docs: "https://redux.js.org/",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/HTMLIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "HTML",
-    docs: "https://developer.mozilla.org/en-US/docs/Web/HTML",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/CSSIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "CSS",
-    docs: "https://developer.mozilla.org/en-US/docs/Web/CSS",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/NodeJSIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "NodeJS",
-    docs: "https://nodejs.org/en/docs/",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/ExpressIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "Express",
-    docs: "https://expressjs.com/",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/SocketIoIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "SocketIo",
-    docs: "https://socket.io/docs/v3/index.html",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/PostgressIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "Postgress",
-    docs: "https://www.postgresql.org/docs/",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/MongoDBIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "MongoDB",
-    docs: "https://docs.mongodb.com/",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/MongooseIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "Mongoose",
-    docs: "https://mongoosejs.com/docs/",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/MySQLIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "MySQL",
-    docs: "https://dev.mysql.com/doc/",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/SequelizeIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "Sequelize",
-    docs: "https://sequelize.org/",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/GitIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "Git",
-    docs: "https://git-scm.com/doc",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/WebpackIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "Webpack",
-    docs: "https://webpack.js.org/",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/AWSIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "AWS",
-    docs: "https://docs.aws.amazon.com/index.html",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/JestIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "Jest",
-    docs: "https://jestjs.io/docs/getting-started",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/EnzymeIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "Enzyme",
-    docs: "https://enzymejs.github.io/enzyme/",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/Nginx.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "NGinX",
-    docs: "https://nginx.org/en/docs/",
-  },
-  {
-    img: "https://nb-portfolio-images.s3.amazonaws.com/JWTIcon.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-    name: "JWT",
-    docs: "https://www.npmjs.com/package/jsonwebtoken",
-  },
-];
-
-function Technologies() {
-  const techs = data.map((tech, index) => {
+function Technologies({ techs }) {
+  const techList = techs.map((tech, index) => {
     return (
       <div
         className={`tech-card ${tech.name} pointer-events-none absolute m-3 flex aspect-square w-[20%] cursor-pointer flex-col items-start overflow-hidden rounded-3xl bg-primary/50 p-3 transition-transform delay-75 duration-150 hover:scale-125 lg:flex-row lg:bg-primary/25`}
@@ -136,22 +13,28 @@ function Technologies() {
           }%)`,
         }}
       >
-        <div className="img-wrapper pointer-events-none w-full h-full">
+        <div className="img-wrapper pointer-events-none h-full w-full">
           <img
             src={tech.img}
             alt={`${tech.name} Icon`}
             className={`tech-icon ${tech.name} pointer-events-auto w-full`}
           />
         </div>
-        <div className="tech__info-wrapper pointer-events-none hidden max-h-[600px] w-full animate-accordion">
-          <button className="close pointer-events-auto absolute top-5 right-10 text-7xl text-white">
+        <div className="tech__info-wrapper pointer-events-auto hidden w-full h-full animate-accordion my-[4%]">
+          <button className="close absolute top-5 right-10 text-7xl text-white">
             X
           </button>
-          <h3 className="tech__info text-center text-5xl text-white underline">
+          <h3 className="tech__info text-center text-5xl text-white underline py-2">
             {tech.name}
           </h3>
           <p className="tech_info-desc ml-5 p-10 indent-16 text-base text-white sm:text-lg xl:text-2xl 2xl:text-2xl">
             {tech.desc}
+          </p>
+          <p className="tech_info-desc ml-5 p-10 w-full text-center text-base text-white sm:text-lg xl:text-2xl 2xl:text-2xl">
+            Check out the{" "}
+            <a href={tech.docs} rel="noreferrer" target="_blank" className="docs text-white underline hover:font-bold pointer-events-auto">
+              documentation
+            </a>
           </p>
         </div>
       </div>
@@ -188,8 +71,8 @@ function Technologies() {
         <h2 className="py-10 text-5xl text-white underline lg:text-7xl">
           Technologies
         </h2>
-        <div className="tech-wrapper relative flex aspect-square w-full flex-wrap justify-between">
-          {techs}
+        <div className="tech-wrapper relative flex aspect-[1/3] w-full flex-wrap justify-between">
+          {techList}
         </div>
       </div>
     </section>

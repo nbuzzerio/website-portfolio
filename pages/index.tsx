@@ -2,6 +2,15 @@ import Technologies from '@/components/Technologies'
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
 
+import techs from "../data/techs.json"
+
+export const getStaticProps = async (context: any) => {
+  return {
+    props: { techs: techs },
+    revalidate: 43200,
+  };
+};
+
 export default function Home() {
 
   const [lineOne, setLineOne] = useState('')
@@ -69,7 +78,7 @@ export default function Home() {
           <span className="inline-block py-1">{lineTwo}<span className="line-two cursor hidden"></span></span>
         </p>
         <div className="scroll-button text-white text-5xl py-32 mb-72 animate-bounce cursor-pointer"><a href="#about">\/</a></div>
-        <Technologies />
+        <Technologies techs={techs}/>
       </main>
     </div>
   )
