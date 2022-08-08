@@ -84,20 +84,41 @@
 }
 
 //techs
-.tech-card.corner {
-    color: blue;
-    @apply animate-corner;
-    
-    .corner-active {
-        @apply animate-cornerActive translate-x-0 translate-y-0;
+.tech-wrapper.active {
+    .tech-card {
+        @apply animate-corner;
     }
+}
+
+.tech-card.techTile {
+    @apply animate-techTileMobile;
+    
+    @media (min-width: 1024px) {
+        @apply animate-techTile;
+    }
+    @media (max-width: 1023px) {
+        .img-wrapper {
+            @apply h-1/6 lg:h-full lg:w-full flex flex-col justify-center;
+            
+            .tech-icon {
+                @apply w-2/12 mx-auto lg:w-full;
+            }
+        }
+    }
+
     .tech__info-wrapper.active {
-        text-shadow: 0 0 7px #000;
-        @apply animate-cornerInfo block h-0 w-0 opacity-0 overflow-hidden;
+        text-shadow: 0 0 1px #000,
+        0 0 2px #000,
+        0 0 3px #000,
+        0 0 4px #000,
+        0 0 5px #000,
+        0 0 6px #000,
+        0 0 7px #000;
+        @apply animate-techTileInfo h-0 w-0 opacity-0 overflow-hidden flex flex-col justify-center ;
         
         .close {
             text-shadow: 0 0 7px #000;
-            @apply animate-cornerClose block h-0 opacity-0 overflow-hidden;
+            @apply animate-techTileClose block h-0 opacity-0 overflow-hidden;
         }
     }
 }

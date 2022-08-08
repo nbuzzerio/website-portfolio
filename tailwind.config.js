@@ -15,10 +15,12 @@ module.exports = {
         expand: "expand 0.7s ease-out both",
         contract: "contract 0s ease-out both",
         accordion: "accordion 0.7s ease-out both",
-        corner: "corner 3s ease-out both",
-        cornerActive: "cornerActive 3s ease-out both",
-        cornerInfo: "cornerInfo 5s ease-out both",
-        cornerClose: "cornerClose 1s ease-out 3s both",
+        techTile: "techTile 3s ease-out both",
+        techTileMobile: "techTileMobile 3s ease-out both",
+        techTileInfo: "techTileInfo 5s ease-out both",
+        techTileClose: "techTileClose 1s ease-out 3s both",
+        corner: "corner 2s ease-out both",
+        cornerAppear: "cornerAppear 1s ease-out both",
       },
       colors: {
         "black-light": "#333",
@@ -64,7 +66,22 @@ module.exports = {
           "0%": { height: "0%" },
           "100%": { height: "100%" },
         },
-        corner: {
+        techTileMobile: {
+          "0%": { "z-index": "10" },
+          "30%": { transform: "translate(-2%, 0)", width: "100%" },
+          "60%": {
+            transform: "translate(0)",
+            width: "100%",
+            "aspect-ratio": "1/1",
+          },
+          "100%": {
+            transform: "translate(-1%, -7%)",
+            width: "100%",
+            " z-index": "10",
+            "aspect-ratio": "auto",
+          },
+        },
+        techTile: {
           "0%": { "z-index": "10" },
           "30%": { transform: "translate(0)", width: "100%" },
           "60%": {
@@ -74,28 +91,36 @@ module.exports = {
           },
           "100%": {
             transform: "translate(-5%, -10%)",
-            width: "250%",
+            width: "175%",
             " z-index": "10",
-            "aspect-ratio": "2/1",
+            "aspect-ratio": "1.35/1",
           },
         },
-        cornerActive: {
-          "0%": { opacity: ".30", transform: "translate(0)" },
-          "42.5%": { transform: "translate(0)" },
-          "60%": { transform: "translate(35%, 35%)" },
-          "80%": { opacity: "1" },
-        },
-        cornerInfo: {
+        techTileInfo: {
           "25%": { height: "100%", width: "0%" },
           "45%": { width: "100%" },
           "65%": { opacity: "0" },
           "100%": { height: "100%", width: "100%", opacity: "1" },
         },
-        cornerClose: {
+        techTileClose: {
           "20%": { height: "20%", opacity: "0" },
           "100%": { height: "20%", opacity: "1" },
         },
+        corner: {
+          "50%": { transform: "translate(0)" },
+        },
+        cornerAppear: {
+          "0%": { transform: "translate(0)" },
+        },
       },
+      screens: {
+        xs: '415px',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1536px',
+      }
     },
   },
   plugins: [],

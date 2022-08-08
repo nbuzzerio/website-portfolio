@@ -22,13 +22,13 @@ if (cardClasses.includes("tech-card")) { //finding the card img
         // };
         
     if (cardClasses.includes("tech-icon")) {
-      if (cardClasses.includes("corner-active")) {
-        card.classList.remove("corner-active")
-        card.parentElement.parentElement.classList.remove("corner")
+      if (cardClasses.includes("techTile-active")) {
+        card.classList.remove("techTile-active")
+        card.parentElement.parentElement.classList.remove("techTile")
         card.parentElement.parentElement.querySelector(".tech__info-wrapper").classList.remove("active")
       } else {
-        card.classList.add("corner-active")
-        card.parentElement.parentElement.classList.add("corner")
+        card.classList.add("techTile-active")
+        card.parentElement.parentElement.classList.add("techTile")
         card.parentElement.parentElement.querySelector(".tech__info-wrapper").classList.add("active")
       }
     }
