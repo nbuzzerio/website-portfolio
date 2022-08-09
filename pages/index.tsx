@@ -40,7 +40,7 @@ export default function Home() {
           } else if (lineTwo.length + 1 === textTwo.length) {
             lineTwoCursor.style.display = "none";
             tagline.style.transform = "scale(1.0)";
-            document.querySelector(".arrow").classList.add("opacity-100");
+            document.querySelector<HTMLImageElement>(".arrow").style.opacity = '1';
           }
         }
       }, 50);
@@ -66,34 +66,36 @@ export default function Home() {
       </Head>
 
       <main className="main flex flex-col items-center justify-center">
-        <h1 className="text-shadow py-24 pb-32 text-center text-6xl uppercase text-primary sm:pt-72 sm:text-9xl">
-          <span className="animate-fade opacity-0">Hi. </span>
-          <span className="text-wrapper inline-block translate-y-4 overflow-hidden">
-            <span className="inline-block animate-jump">
-              I&apos;m
-              <span className="text-shadow-white text-white-dark"> Nick</span>.
+        <div className="hero h-screen flex flex-col items-center">
+          <h1 className="text-shadow py-24 pb-32 text-center text-6xl uppercase text-primary sm:pt-72 sm:text-9xl">
+            <span className="animate-fade opacity-0">Hi. </span>
+            <span className="text-wrapper inline-block translate-y-4 overflow-hidden">
+              <span className="inline-block animate-jump">
+                I&apos;m
+                <span className="text-shadow-white text-white-dark"> Nick</span>.
+              </span>
             </span>
-          </span>
-        </h1>
-        <p className="tagline text-center text-4xl text-slate-300 transition-opacity sm:text-6xl">
-          <span className="inline-block py-1">
-            {lineOne}
-            <span className="line-one cursor hidden"> </span>
-          </span>
-          <br />
-          <span className="inline-block py-1">
-            {lineTwo}
-            <span className="line-two cursor hidden"></span>
-          </span>
-        </p>
-        <div className="scroll-button mt-32 animate-bounce cursor-pointer text-5xl text-white">
-          <a href="#about">
-            <img
-              src="/images/down-arrow.svg"
-              alt=""
-              className="arrow w-32 opacity-0 transition-opacity duration-1000"
-            />
-          </a>
+          </h1>
+          <p className="tagline text-center text-4xl text-slate-300 transition-opacity sm:text-6xl">
+            <span className="inline-block py-1">
+              {lineOne}
+              <span className="line-one cursor hidden"> </span>
+            </span>
+            <br />
+            <span className="inline-block py-1">
+              {lineTwo}
+              <span className="line-two cursor hidden"></span>
+            </span>
+          </p>
+          <div className="scroll-button mt-32 animate-bounce cursor-pointer text-5xl text-white">
+            <a href="#about">
+              <img
+                src="/images/down-arrow.svg"
+                alt=""
+                className="arrow w-32 opacity-0 transition-opacity duration-1000"
+              />
+            </a>
+          </div>
         </div>
         <About />
         <Technologies techs={techs} />

@@ -91,7 +91,7 @@ function Technologies({ techs }) {
       <div className="left-panel flex w-full flex-col-reverse items-center sm:px-5 lg:w-4/12 lg:flex-col lg:pt-[10%]">
         <select
           name="techFilter"
-          className="techFilter -translate-y-full lg:-translate-y-0"
+          className="techFilter bg-primary/50 lg:bg-primary/25 text-white sm:text-5xl lg:text-xl xl:text-3xl 2xl:text-5xl p-5 rounded-t-3xl z-10"
           value={filter}
           onChange={(e) => {
             handleSelect();
@@ -109,7 +109,7 @@ function Technologies({ techs }) {
         </select>
         <div className="animation-wrapper overflow-hidden">
           <div className="animation-container w-full">
-            <Lottie animationData={laptopData} loop={1}/>
+            <Lottie animationData={laptopData} loop={1} />
           </div>
         </div>
       </div>
