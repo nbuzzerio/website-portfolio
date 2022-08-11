@@ -24,7 +24,7 @@ function Applications(props) {
                 As the full stack developer for the cryptocurrency leasing node,
                 LTO Moonbase, I created this website using React and NodeJS from
                 the ground up. I worked closely with the business team to design
-                the site based on the company's current needs with scalability
+                the site based on the company&apos;s current needs with scalability
                 in mind for new features down the road. I also worked on scripts
                 for node itself as well as automated payments to stakeholders.
               </p>
