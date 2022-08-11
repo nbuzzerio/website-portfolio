@@ -132,3 +132,41 @@
     bottom: 0; 
     backdrop-filter: blur(5px);
   }
+
+//applications section port
+#appsHeader {
+    text-align: center;
+    margin-bottom: 5vw;
+}
+
+.app {
+    -webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+    box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
+}
+
+.appThumbnailInner {
+    transform-style: preserve-3d;
+}
+
+.appThumbnailImg-front, .appThumbnailImg-back {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    filter: hue-rotate(var(--hue)) grayscale(.5);
+}
+
+.lto {
+    filter: hue-rotate(0deg) grayscale(.5);
+}
+
+.appThumbnailImg-back {
+    filter: none;
+}
+
+#ytsoThumbnail-front {
+    filter: invert(.9) hue-rotate(var(--hueShift)) grayscale(.35);
+}
+
+#ytsoThumbnail-back {
+    filter: none;
+}
