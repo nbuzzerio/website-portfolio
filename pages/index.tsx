@@ -49,7 +49,7 @@ export default function Home() {
       setTimeout(() => {
         lineOneCursor.style.display = "inline-block";
         setLoaded(true);
-      }, 2000);
+      }, 3000);
     }
 
     return () => {};
@@ -67,17 +67,17 @@ export default function Home() {
       </Head>
 
       <main className="main flex flex-col items-center justify-center">
-        <div className="hero h-screen flex flex-col items-center">
-          <h1 className="text-shadow py-24 pb-32 text-center text-6xl uppercase text-primary sm:pt-72 sm:text-9xl">
-            <span className="animate-fade opacity-0">Hi. </span>
-            <span className="text-wrapper inline-block translate-y-4 overflow-hidden">
+        <div className="hero h-screen flex flex-col items-center justify-center">
+          <h1 className="text-shadow flex text-center text-5xl sm:text-6xl uppercase text-primary md:text-8xl lg:text-9xl pt-10 overflow-hidden">
+            <span className="animate-fade opacity-0 inline-block">Hi.&nbsp;</span>
+            <span className="text-wrapper inline-block">
               <span className="inline-block animate-jump">
                 I&apos;m
-                <span className="text-shadow-white text-white-dark"> Nick</span>.
+                <span className="text-shadow-white text-white-dark">&nbsp;Nick</span>.
               </span>
             </span>
           </h1>
-          <p className="tagline text-center text-4xl text-slate-300 transition-opacity sm:text-6xl">
+          <p className="tagline text-center text-4xl text-slate-300 transition-opacity md:text-6xl pt-[10%] pb-[20%]">
             <span className="inline-block py-1">
               {lineOne}
               <span className="line-one cursor hidden"> </span>
@@ -88,7 +88,8 @@ export default function Home() {
               <span className="line-two cursor hidden"></span>
             </span>
           </p>
-          <div className="scroll-button mt-32 animate-bounce cursor-pointer text-5xl text-white">
+          <div className=""></div>
+          <div className="scroll-button animate-bounce cursor-pointer text-5xl text-white">
             <a href="#about">
               <img
                 src="/images/down-arrow.svg"

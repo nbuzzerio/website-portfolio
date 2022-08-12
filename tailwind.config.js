@@ -10,8 +10,8 @@ module.exports = {
         close: "menuClose 1s ease-in-out forwards",
         blink: "fade 0.5s infinite",
         clip: "clip 1.5s ease-out 1s both",
-        fade: "fade 1s ease-out forwards",
-        jump: "jump 0.7s cubic-bezier(0.42, 0, 0.59, 1.69) 1s both",
+        fade: "fade 1s ease-out 1s forwards",
+        jump: "jump 0.7s cubic-bezier(0.42, 0, 0.59, 1.69) 3s both",
         expand: "expand 0.7s ease-out both",
         contract: "contract 0s ease-out both",
         accordion: "accordion 0.7s ease-out both",
@@ -33,6 +33,10 @@ module.exports = {
           darker: "#320000",
         },
       },
+      fontFamily: {
+        rubik: ["Rubik Distressed"],
+        oswald: ["Oswald"],
+      },
       keyframes: {
         menuOpen: {
           "0%": { transform: "translateX(100%)" },
@@ -51,7 +55,7 @@ module.exports = {
           "100%": { "clip-path": "polygon(0 0, 100% 0, 100% 100%, 0 100%)" },
         },
         jump: {
-          "0%": { transform: "translateY(110px)" },
+          "0%": { transform: "translateY(125px)" },
           "100%": { transform: "translateY(0px)" },
         },
         expand: {
@@ -114,13 +118,13 @@ module.exports = {
         },
       },
       screens: {
-        xs: '415px',
-        sm: '640px',
-        md: '768px',
-        lg: '1024px',
-        xl: '1280px',
-        '2xl': '1536px',
-      }
+        xs: "415px",
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1536px",
+      },
     },
   },
   plugins: [],

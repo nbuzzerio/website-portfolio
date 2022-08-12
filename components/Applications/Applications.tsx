@@ -64,9 +64,9 @@ function Applications(props) {
                 drop them into categories letting you see uploads only for what
                 you are in the mood to watch all sorted by release date!
               </p>
-              <a className="appLinks py-3 text-white relative hover:font-bold text-base sm:text-xl lg:text-lg xl:text-xl" href="https://nickbuzzerio.com/ytso/">
+              {/* <a className="appLinks py-3 text-white relative hover:font-bold text-base sm:text-xl lg:text-lg xl:text-xl" href="https://nickbuzzerio.com/ytso/">
                 Try it out
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -94,9 +94,9 @@ function Applications(props) {
                 opponent moving the pieces in real time with the help of
                 Socket.io.
               </p>
-              <a className="appLinks py-3 text-white relative hover:font-bold text-base sm:text-xl lg:text-lg xl:text-xl" href="https://nickbuzzerio.com/chess/">
+              {/* <a className="appLinks py-3 text-white relative hover:font-bold text-base sm:text-xl lg:text-lg xl:text-xl" href="https://nickbuzzerio.com/chess/">
                 Play a Game
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

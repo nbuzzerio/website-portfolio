@@ -2,7 +2,7 @@
     {
       "img": "/images/techs/javascript.png",
       "desc": "A dynamic programing language used for mainly for web development. Scripting with JavaScript allows developers to manipulate the DOM dynamically. The versitile language is used in browsers and on the backend with NodeJS.",
-      "experience": "JavaScript is the programing language I am most experienced in. I have created many projects using this powerful language from static pages to full stack applications. Used along with powerful technologies like NextJS, TypeScript, and a seemingly endless resevoir of open source libraries making complicated web aplications is quick and painless.",
+      "experience": "JavaScript is the programing language I am most experienced in. I have created many projects using this powerful language from static pages to full stack applications.",
       "category": "Languages",
       "name": "JavaScript",
       "docs": "https://developer.mozilla.org/en-US/docs/Web/javascript"
@@ -26,279 +26,279 @@
     {
         "img": "/images/techs/csharp.png",
         "desc": "C# is an object-oriented and component-oriented typed programming language. It runs in the .NET framework which includes a vast selection of methods and libraries to take advantage of in your codebase.",
-        "experience": "I have a basic knowlege of C# and have been learning more in my free time. Mainly messing around with game development in the Unity engine but also spending a little time looking into ASP.NET. I would love an oppertunity to create a desktop program or website so I can take a deeper dive into C#.",
+        "experience": "I have a basic knowlege of C# and have been learning more in my free time. Mainly messing around with game development in the Unity engine but also spending a little time looking into ASP.NET.",
         "category": "Languages",
         "name": "C#",
         "docs": "https://docs.microsoft.com/en-us/dotnet/csharp/"
     },
     {
         "img": "/images/techs/php.png",
-        "desc": "PHP is a server-side scripting language. It is used in web development and is able to be embeded in the HTML of a website. PHP is widely used throughout the web. While newer technologies have come into the space, PHP is still the leader in server-side languages for websites. This is due to Facebook and the ease of use of the CMS WordPress which makes getting a basic website out on the web quick and easy.",
-        "experience": "I have a basic understanding of PHP mainly from maintaining legacy code at work. I have worked with the microframework Lumen to maintain a RESTful api. I find PHP fairly simple to use. I would like an oppertunity to create a website from scratch using PHP to expand my proficiency with this language in the future. While it may not be used as widely in large newer projects, it is a dominant player in the legacy code space and it certainly a good technology to know.",
+        "desc": "PHP is a server-side scripting language. It is used in web development and is able to be embeded in the HTML of a website. PHP is widely used throughout the web especially with the CMS wordpress.",
+        "experience": "I have a basic understanding of PHP mainly from maintaining legacy code at work. I have worked with the microframework Lumen to maintain a RESTful api. I would like an oppertunity to create a website from scratch using PHP.",
         "category": "Languages",
         "name": "PHP",
         "docs": "https://www.php.net/docs.php"
     },
     {
       "img": "/images/techs/react.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "React is a JavaScript library for building component based UI. It takes advantage of a virtual DOM which allows the client to update only components that have a change in state. This leads to clean user interfaces with seemless user experiences, especially for creating SPAs.",
+      "experience": "React is my go to front end library for views. My favorite thing about React is the ability to make flexible, reusable components which makes upkeep for scaling applications painless. When I need to maintain an app using ollder libraries I miss it!",
       "category": "Client Side",
       "name": "React",
       "docs": "https://reactjs.org/"
     },
     {
       "img": "/images/techs/redux.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Redux is a predictable state library for JavaScript applications. Its main benefit when using it with React is that you no longer need to pass props down a deep tree of components but instead call them from the centralized provider.",
+      "experience": "I like to use Redux if I have an application with a deep component tree or a lot of interconnected components. If the application only has a few props like this React has a decent built in alternative with the context api.",
       "category": "Client Side",
       "name": "Redux",
       "docs": "https://redux.js.org/"
     },
     {
       "img": "/images/techs/html.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Client Side",
       "name": "HTML",
       "docs": "https://developer.mozilla.org/en-US/docs/Web/HTML"
     },
     {
       "img": "/images/techs/css.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Client Side",
       "name": "CSS",
       "docs": "https://developer.mozilla.org/en-US/docs/Web/CSS"
     },
     {
       "img": "/images/techs/tailwindcss.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Client Side",
       "name": "Tailwind",
       "docs": "https://tailwindcss.com/docs/installation"
     },
     {
       "img": "/images/techs/sass.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Client Side",
       "name": "Sass",
       "docs": "https://sass-lang.com/documentation/"
     },
     {
       "img": "/images/techs/jquery.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Client Side",
       "name": "JQuery",
       "docs": "https://api.jquery.com/"
     },
     {
       "img": "/images/techs/nextjs.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Server Side",
       "name": "NextJS",
       "docs": "https://nextjs.org/docs"
     },
     {
       "img": "/images/techs/nodejs.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Server Side",
       "name": "NodeJS",
       "docs": "https://nodejs.org/en/docs/"
     },
     {
       "img": "/images/techs/expressjs.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Server Side",
       "name": "Express",
       "docs": "https://expressjs.com/"
     },
     {
       "img": "/images/techs/socketio.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Server Side",
       "name": "SocketIo",
       "docs": "https://socket.io/docs/v3/index.html"
     },
     {
       "img": "/images/techs/jwt.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Server Side",
       "name": "JWT",
       "docs": "https://www.npmjs.com/package/jsonwebtoken"
     },
     {
       "img": "/images/techs/postgresql.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Database",
       "name": "Postgress",
       "docs": "https://www.postgresql.org/docs/"
     },
     {
       "img": "/images/techs/redis.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Database",
       "name": "Redis",
       "docs": "https://redis.io/docs/"
     },
     {
       "img": "/images/techs/mongodb.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Database",
       "name": "MongoDB",
       "docs": "https://docs.mongodb.com/"
     },
     {
       "img": "/images/techs/mongoose.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Database",
       "name": "Mongoose",
       "docs": "https://mongoosejs.com/docs/"
     },
     {
       "img": "/images/techs/mysql.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Database",
       "name": "MySQL",
       "docs": "https://dev.mysql.com/doc/"
     },
     {
       "img": "/images/techs/sequelize.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Database",
       "name": "Sequelize",
       "docs": "https://sequelize.org/"
     },
     {
       "img": "/images/techs/jest.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Testing",
       "name": "Jest",
       "docs": "https://jestjs.io/docs/getting-started"
     },
     {
       "img": "/images/techs/testing-library.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Testing",
       "name": "Testing Library",
       "docs": "https://testing-library.com/docs/"
     },
     {
       "img": "/images/techs/cypress.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Testing",
       "name": "Cypress",
       "docs": "https://docs.cypress.io/guides/overview/why-cypress"
     },
     {
         "img": "/images/techs/new-relic.png",
-        "desc": "",
-        "experience": "",
+        "desc": "Coming Soon",
+        "experience": "Coming Soon",
       "category": "Testing",
       "name": "New Relic",
       "docs": "https://docs.newrelic.com/"
     },
     {
         "img": "/images/techs/aws.png",
-        "desc": "",
-        "experience": "",
+        "desc": "Coming Soon",
+        "experience": "Coming Soon",
         "category": "Deployment",
         "name": "AWS",
         "docs": "https://docs.aws.amazon.com/index.html"
     },
     {
       "img": "/images/techs/nginx.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Deployment",
       "name": "NGinX",
       "docs": "https://nginx.org/en/docs/"
     },
     {
       "img": "/images/techs/docker.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "Deployment",
       "name": "Docker",
       "docs": "https://docs.docker.com/"
     },
     {
       "img": "/images/techs/git.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "DevTools/Workflow",
       "name": "Git",
       "docs": "https://git-scm.com/doc"
     },
     {
       "img": "/images/techs/webpack.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "DevTools/Workflow",
       "name": "Webpack",
       "docs": "https://webpack.js.org/"
     },
     {
       "img": "/images/techs/npm.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "DevTools/Workflow",
       "name": "NPM",
       "docs": "https://docs.npmjs.com/"
     },
     {
         "img": "/images/techs/figma.png",
-        "desc": "",
-        "experience": "",
+        "desc": "Coming Soon",
+        "experience": "Coming Soon",
         "category": "DevTools/Workflow",
         "name": "Figma",
         "docs": "https://www.figma.com/best-practices/guide-to-developer-handoff/components-styles-and-documentation/"
     },
     {
       "img": "/images/techs/gulp.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "DevTools/Workflow",
       "name": "Gulp",
       "docs": "https://gulpjs.com/docs/en/getting-started/quick-start"
     },
     {
       "img": "/images/techs/github.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "DevTools/Workflow",
       "name": "Github",
       "docs": "https://github.com/"
     },
     {
       "img": "/images/techs/bitbucket.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "DevTools/Workflow",
       "name": "Bitbucket",
       "docs": "https://bitbucket.org/"
     },
     {
       "img": "/images/techs/jira.png",
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
-      "experience": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis rerum illum similique laborum, quo provident. Fugiat non doloribus ducimus aspernatur minus aperiam esse alias soluta consequatur impedit cum neque, autem, maiores molestias distinctio debitis possimus rerum quaerat iusto velit sit enim. Repudiandae omnis voluptates alias, illo optio esse magnam deserunt.",
+      "desc": "Coming Soon",
+      "experience": "Coming Soon",
       "category": "DevTools/Workflow",
       "name": "Jira",
       "docs": "https://confluence.atlassian.com/jira"

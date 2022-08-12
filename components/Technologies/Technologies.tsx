@@ -86,7 +86,7 @@ function Technologies({ techs }) {
   return (
     <section
       id="about"
-      className="technologies relative flex w-full max-w-[1920px] flex-col overflow-hidden py-5 sm:py-32 lg:flex-row-reverse"
+      className="technologies relative flex w-full max-w-[1920px] flex-col overflow-hidden py-5 my-10 sm:my-2 sm:py-32 lg:flex-row-reverse"
     >
       <div className="left-panel flex w-full flex-col-reverse items-center sm:px-5 lg:w-4/12 lg:flex-col lg:pt-[10%]">
         <select

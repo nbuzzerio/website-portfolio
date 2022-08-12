@@ -1,6 +1,16 @@
+@use "font-faces/rubik.scss";
+@use "font-faces/oswald.scss";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html {
+    @apply font-oswald;
+}
+h1, h2, h3 {
+    @apply font-rubik;
+}
 
 //Menu
 .menu-btn span {
@@ -36,7 +46,6 @@
 }
 
 .text-shadow {
-    font-family: "Arial Black", sans-serif;
     text-shadow: 0px 0px 0 #320000,
                  1px 1px 0 #320000,
                  2px 2px 0 #320000,
