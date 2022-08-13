@@ -85,7 +85,6 @@ function Technologies({ techs }) {
 
   return (
     <section
-      id="about"
       className="technologies relative flex w-full max-w-[1920px] flex-col overflow-hidden py-5 my-10 sm:my-2 sm:py-32 lg:flex-row-reverse"
     >
       <div className="left-panel flex w-full flex-col-reverse items-center sm:px-5 lg:w-4/12 lg:flex-col lg:pt-[10%]">
@@ -107,9 +106,9 @@ function Technologies({ techs }) {
           <option value="Deployment">Deployment</option>
           <option value="DevTools/Workflow">DevTools/Workflow</option>
         </select>
-        <div className="animation-wrapper overflow-hidden">
-          <div className="animation-container w-full">
-            <Lottie animationData={laptopData} loop={1} />
+        <div className="animation-wrapper">
+          <div className="animation-container w-full flex justify-center py-10">
+            <Lottie animationData={laptopData} loop={10} style={{width: "65%"}}/>
           </div>
         </div>
       </div>

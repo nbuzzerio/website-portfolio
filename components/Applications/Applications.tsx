@@ -2,7 +2,7 @@ function Applications(props) {
   return (
     <section className="sectionContainer w-full bg-primary-dark flex justify-center flex-col items-center">
         <h2 className="py-10 text-5xl text-black underline lg:text-7xl">
-          About Me
+          Applications
         </h2>
         <div className="applications-wrapper grid lg:flex grid-cols-1 justify-center py-12 gap-20 w-8/12 lg:w-10/12 2xl:w-8/12">
           <div className="app border rounded-xl border-primary-darker bg-primary-darker/80 overflow-hidden w-full flex flex-col">
@@ -94,9 +94,9 @@ function Applications(props) {
                 opponent moving the pieces in real time with the help of
                 Socket.io.
               </p>
-              {/* <a className="appLinks py-3 text-white relative hover:font-bold text-base sm:text-xl lg:text-lg xl:text-xl" href="https://nickbuzzerio.com/chess/">
+              <a className="appLinks py-3 text-white relative hover:font-bold text-base sm:text-xl lg:text-lg xl:text-xl" href="https://nickbuzzerio.com/chess/">
                 Play a Game
-              </a> */}
+              </a>
             </div>
           </div>
         </div>

@@ -5,6 +5,14 @@ const nextConfig = {
     locales: ["en"],
     defaultLocale: "en",
   },
-}
+  async rewrites() {
+    return [
+      {
+        source: "/chess/:path*",
+        destination: "https://localhost:3001/:path*",
+      },
+    ];
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

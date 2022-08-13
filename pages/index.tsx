@@ -49,7 +49,7 @@ export default function Home() {
       setTimeout(() => {
         lineOneCursor.style.display = "inline-block";
         setLoaded(true);
-      }, 3000);
+      }, 3500);
     }
 
     return () => {};
@@ -94,7 +94,7 @@ export default function Home() {
               <img
                 src="/images/down-arrow.svg"
                 alt=""
-                className="arrow w-32 opacity-0 transition-opacity duration-1000"
+                className="arrow w-32 opacity-0 transition-opacity duration-1000 delay-500"
               />
             </a>
           </div>

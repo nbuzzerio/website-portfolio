@@ -21,6 +21,7 @@ module.exports = {
         techTileClose: "techTileClose 1s ease-out 3s both",
         corner: "corner 2s ease-out both",
         cornerAppear: "cornerAppear 1s ease-out both",
+        slideIn: "slideIn 1s ease-out both",
       },
       colors: {
         "black-light": "#333",
@@ -115,6 +116,9 @@ module.exports = {
         },
         cornerAppear: {
           "0%": { transform: "translate(0)" },
+        },
+        slideIn: {
+          "100%": { transform: "translate(0)" },
         },
       },
       screens: {
