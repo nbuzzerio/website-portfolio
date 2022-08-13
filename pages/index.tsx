@@ -41,7 +41,8 @@ export default function Home() {
           } else if (lineTwo.length + 1 === textTwo.length) {
             lineTwoCursor.style.display = "none";
             tagline.style.transform = "scale(1.0)";
-            document.querySelector<HTMLImageElement>(".arrow").style.opacity = '1';
+            document.querySelector<HTMLImageElement>(".arrow").style.opacity =
+              "1";
           }
         }
       }, 50);
@@ -67,23 +68,28 @@ export default function Home() {
       </Head>
 
       <main className="main flex flex-col items-center justify-center">
-        <div className="hero h-screen flex flex-col items-center justify-center">
-          <h1 className="text-shadow flex text-center text-5xl sm:text-6xl uppercase text-primary md:text-8xl lg:text-9xl pt-10 overflow-hidden">
-            <span className="animate-fade opacity-0 inline-block">Hi.&nbsp;</span>
+        <div className="hero flex h-screen flex-col items-center justify-center">
+          <h1 className="text-shadow flex overflow-hidden pt-10 text-center text-5xl uppercase text-primary sm:text-6xl md:text-8xl lg:text-9xl">
+            <span className="inline-block animate-fade opacity-0">
+              Hi.&nbsp;
+            </span>
             <span className="text-wrapper inline-block">
               <span className="inline-block animate-jump">
                 I&apos;m
-                <span className="text-shadow-white text-white-dark">&nbsp;Nick</span>.
+                <span className="text-shadow-white text-white-dark">
+                  &nbsp;Nick
+                </span>
+                .
               </span>
             </span>
           </h1>
-          <p className="tagline text-center text-4xl text-slate-300 transition-opacity md:text-6xl pt-[10%] pb-[20%]">
-            <span className="inline-block py-1">
+          <p className="tagline pt-[10%] pb-[20%] text-center text-4xl text-slate-300 transition-opacity md:text-6xl">
+            <span className="relative inline-block py-1">
               {lineOne}
               <span className="line-one cursor hidden"> </span>
             </span>
             <br />
-            <span className="inline-block py-1">
+            <span className="relative inline-block py-1">
               {lineTwo}
               <span className="line-two cursor hidden"></span>
             </span>
@@ -94,7 +100,7 @@ export default function Home() {
               <img
                 src="/images/down-arrow.svg"
                 alt=""
-                className="arrow w-32 opacity-0 transition-opacity duration-1000 delay-500"
+                className="arrow w-32 opacity-0 transition-opacity duration-1000"
               />
             </a>
           </div>
