@@ -1,306 +1,307 @@
-  [
-    {
-      "img": "/images/techs/javascript.png",
-      "desc": "A dynamic programing language used for mainly for web development. Scripting with JavaScript allows developers to manipulate the DOM dynamically. The versitile language is used in browsers and on the backend with NodeJS.",
-      "experience": "JavaScript is the programing language I am most experienced in. I have created many projects using this powerful language from static pages to full stack applications.",
-      "category": "Languages",
-      "name": "JavaScript",
-      "docs": "https://developer.mozilla.org/en-US/docs/Web/javascript"
-    },
-    {
-      "img": "/images/techs/typescript.png",
-      "desc": "TypeScript is a syntactic superset of JavaScript that adds static typing to the language. It helps developers write more robust code by strictly typing variables, objects, functions, etc. TypeScript will warn you of possible bugs before its compiled into JavaScript.",
-      "experience": "I have been taking advantage of TypeScript in all of my most recent JavaScript projects. The intellisence that comes along with using TypeScript makes developing code much more streamlined especially when using new libraries as it works as documention.",
-      "category": "Languages",
-      "name": "TypeScript",
-      "docs": "https://www.typescriptlang.org/docs/"
-    },
-    {
-        "img": "/images/techs/python.png",
-        "desc": "Python is a dynamic programing language. Versitile, it can be used for an array of soltions such as creating programs, web development, data science, and machine learning to name a few. Python's intuitive syntax makes it quick to write and reads like plain english.",
-        "experience": "I have a basic knowlege of Python. I am familiar with the syntax and have used it to make a basic rest server using Flask. I am currently looking into machine learning using python and tensorflow.",
-        "category": "Languages",
-        "name": "Python",
-        "docs": "https://docs.python.org/3/"
-    },
-    {
-        "img": "/images/techs/csharp.png",
-        "desc": "C# is an object-oriented and component-oriented typed programming language. It runs in the .NET framework which includes a vast selection of methods and libraries to take advantage of in your codebase.",
-        "experience": "I have a basic knowlege of C# and have been learning more in my free time. Mainly messing around with game development in the Unity engine but also spending a little time looking into ASP.NET.",
-        "category": "Languages",
-        "name": "C#",
-        "docs": "https://docs.microsoft.com/en-us/dotnet/csharp/"
-    },
-    {
-        "img": "/images/techs/php.png",
-        "desc": "PHP is a server-side scripting language. It is used in web development and is able to be embeded in the HTML of a website. PHP is widely used throughout the web especially with the CMS wordpress.",
-        "experience": "I have a basic understanding of PHP mainly from maintaining legacy code at work. I have worked with the microframework Lumen to maintain a RESTful api. I would like an oppertunity to create a website from scratch using PHP.",
-        "category": "Languages",
-        "name": "PHP",
-        "docs": "https://www.php.net/docs.php"
-    },
-    {
-      "img": "/images/techs/react.png",
-      "desc": "React is a JavaScript library for building component based UI. It takes advantage of a virtual DOM which allows the client to update only components that have a change in state. This leads to clean user interfaces with seemless user experiences, especially for creating SPAs.",
-      "experience": "React is my go to front end library for views. My favorite thing about React is the ability to make flexible, reusable components which makes upkeep for scaling applications painless. When I need to maintain an app using ollder libraries I miss it!",
-      "category": "Client Side",
-      "name": "React",
-      "docs": "https://reactjs.org/"
-    },
-    {
-      "img": "/images/techs/redux.png",
-      "desc": "Redux is a predictable state library for JavaScript applications. Its main benefit when using it with React is that you no longer need to pass props down a deep tree of components but instead call them from the centralized provider.",
-      "experience": "I like to use Redux if I have an application with a deep component tree or a lot of interconnected components. If the application only has a few props like this React has a decent built in alternative with the context api.",
-      "category": "Client Side",
-      "name": "Redux",
-      "docs": "https://redux.js.org/"
-    },
-    {
-      "img": "/images/techs/html.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Client Side",
-      "name": "HTML",
-      "docs": "https://developer.mozilla.org/en-US/docs/Web/HTML"
-    },
-    {
-      "img": "/images/techs/css.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Client Side",
-      "name": "CSS",
-      "docs": "https://developer.mozilla.org/en-US/docs/Web/CSS"
-    },
-    {
-      "img": "/images/techs/tailwindcss.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Client Side",
-      "name": "Tailwind",
-      "docs": "https://tailwindcss.com/docs/installation"
-    },
-    {
-      "img": "/images/techs/sass.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Client Side",
-      "name": "Sass",
-      "docs": "https://sass-lang.com/documentation/"
-    },
-    {
-      "img": "/images/techs/jquery.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Client Side",
-      "name": "JQuery",
-      "docs": "https://api.jquery.com/"
-    },
-    {
-      "img": "/images/techs/nextjs.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Server Side",
-      "name": "NextJS",
-      "docs": "https://nextjs.org/docs"
-    },
-    {
-      "img": "/images/techs/nodejs.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Server Side",
-      "name": "NodeJS",
-      "docs": "https://nodejs.org/en/docs/"
-    },
-    {
-      "img": "/images/techs/expressjs.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Server Side",
-      "name": "Express",
-      "docs": "https://expressjs.com/"
-    },
-    {
-      "img": "/images/techs/socketio.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Server Side",
-      "name": "SocketIo",
-      "docs": "https://socket.io/docs/v3/index.html"
-    },
-    {
-      "img": "/images/techs/jwt.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Server Side",
-      "name": "JWT",
-      "docs": "https://www.npmjs.com/package/jsonwebtoken"
-    },
-    {
-      "img": "/images/techs/postgresql.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Database",
-      "name": "Postgress",
-      "docs": "https://www.postgresql.org/docs/"
-    },
-    {
-      "img": "/images/techs/redis.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Database",
-      "name": "Redis",
-      "docs": "https://redis.io/docs/"
-    },
-    {
-      "img": "/images/techs/mongodb.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Database",
-      "name": "MongoDB",
-      "docs": "https://docs.mongodb.com/"
-    },
-    {
-      "img": "/images/techs/mongoose.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Database",
-      "name": "Mongoose",
-      "docs": "https://mongoosejs.com/docs/"
-    },
-    {
-      "img": "/images/techs/mysql.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Database",
-      "name": "MySQL",
-      "docs": "https://dev.mysql.com/doc/"
-    },
-    {
-      "img": "/images/techs/sequelize.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Database",
-      "name": "Sequelize",
-      "docs": "https://sequelize.org/"
-    },
-    {
-      "img": "/images/techs/jest.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Testing",
-      "name": "Jest",
-      "docs": "https://jestjs.io/docs/getting-started"
-    },
-    {
-      "img": "/images/techs/testing-library.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Testing",
-      "name": "Testing Library",
-      "docs": "https://testing-library.com/docs/"
-    },
-    {
-      "img": "/images/techs/cypress.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Testing",
-      "name": "Cypress",
-      "docs": "https://docs.cypress.io/guides/overview/why-cypress"
-    },
-    {
-        "img": "/images/techs/new-relic.png",
-        "desc": "Coming Soon",
-        "experience": "Coming Soon",
-      "category": "Testing",
-      "name": "New Relic",
-      "docs": "https://docs.newrelic.com/"
-    },
-    {
-        "img": "/images/techs/aws.png",
-        "desc": "Coming Soon",
-        "experience": "Coming Soon",
-        "category": "Deployment",
-        "name": "AWS",
-        "docs": "https://docs.aws.amazon.com/index.html"
-    },
-    {
-      "img": "/images/techs/nginx.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Deployment",
-      "name": "NGinX",
-      "docs": "https://nginx.org/en/docs/"
-    },
-    {
-      "img": "/images/techs/docker.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "Deployment",
-      "name": "Docker",
-      "docs": "https://docs.docker.com/"
-    },
-    {
-      "img": "/images/techs/git.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "DevTools/Workflow",
-      "name": "Git",
-      "docs": "https://git-scm.com/doc"
-    },
-    {
-      "img": "/images/techs/webpack.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "DevTools/Workflow",
-      "name": "Webpack",
-      "docs": "https://webpack.js.org/"
-    },
-    {
-      "img": "/images/techs/npm.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "DevTools/Workflow",
-      "name": "NPM",
-      "docs": "https://docs.npmjs.com/"
-    },
-    {
-        "img": "/images/techs/figma.png",
-        "desc": "Coming Soon",
-        "experience": "Coming Soon",
-        "category": "DevTools/Workflow",
-        "name": "Figma",
-        "docs": "https://www.figma.com/best-practices/guide-to-developer-handoff/components-styles-and-documentation/"
-    },
-    {
-      "img": "/images/techs/gulp.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "DevTools/Workflow",
-      "name": "Gulp",
-      "docs": "https://gulpjs.com/docs/en/getting-started/quick-start"
-    },
-    {
-      "img": "/images/techs/github.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "DevTools/Workflow",
-      "name": "Github",
-      "docs": "https://github.com/"
-    },
-    {
-      "img": "/images/techs/bitbucket.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "DevTools/Workflow",
-      "name": "Bitbucket",
-      "docs": "https://bitbucket.org/"
-    },
-    {
-      "img": "/images/techs/jira.png",
-      "desc": "Coming Soon",
-      "experience": "Coming Soon",
-      "category": "DevTools/Workflow",
-      "name": "Jira",
-      "docs": "https://confluence.atlassian.com/jira"
-    }
+[
+  {
+    "img": "/images/techs/javascript.png",
+    "desc": "A dynamic programing language used for mainly for web development. Scripting with JavaScript allows developers to manipulate the DOM dynamically. The versitile language is used in browsers and on the backend with NodeJS.",
+    "experience": "JavaScript is the programing language I am most experienced in. I have created many projects using this powerful language from static pages to full stack applications.",
+    "category": "Languages",
+    "name": "JavaScript",
+    "docs": "https://developer.mozilla.org/en-US/docs/Web/javascript"
+  },
+  {
+    "img": "/images/techs/typescript.png",
+    "desc": "TypeScript is a syntactic superset of JavaScript that adds static typing to the language. It helps developers write more robust code by strictly typing variables, objects, functions, etc. TypeScript will warn you of possible bugs before its compiled into JavaScript.",
+    "experience": "I have been taking advantage of TypeScript in all of my most recent JavaScript projects. The intellisence that comes along with using TypeScript makes developing code much more streamlined especially when using new libraries as it works as documention.",
+    "category": "Languages",
+    "name": "TypeScript",
+    "docs": "https://www.typescriptlang.org/docs/"
+  },
+  {
+    "img": "/images/techs/python.png",
+    "desc": "Python is a dynamic programing language. Versitile, it can be used for an array of soltions such as creating programs, web development, data science, and machine learning to name a few. Python's intuitive syntax makes it quick to write and reads like plain english.",
+    "experience": "I have a basic knowlege of Python. I am familiar with the syntax and have used it to make a basic rest server using Flask. I am currently looking into machine learning using python and tensorflow.",
+    "category": "Languages",
+    "name": "Python",
+    "docs": "https://docs.python.org/3/"
+  },
+  {
+    "img": "/images/techs/csharp.png",
+    "desc": "C# is an object-oriented and component-oriented typed programming language. It runs in the .NET framework which includes a vast selection of methods and libraries to take advantage of in your codebase.",
+    "experience": "I have a basic knowlege of C# and have been learning more in my free time. Mainly messing around with game development in the Unity engine but also spending a little time looking into ASP.NET.",
+    "category": "Languages",
+    "name": "C#",
+    "docs": "https://docs.microsoft.com/en-us/dotnet/csharp/"
+  },
+  {
+    "img": "/images/techs/php.png",
+    "desc": "PHP is a server-side scripting language. It is used in web development and is able to be embeded in the HTML of a website. PHP is widely used throughout the web especially with the CMS wordpress.",
+    "experience": "I have a basic understanding of PHP mainly from maintaining legacy code at work. I have worked with the microframework Lumen to maintain a RESTful api. I would like an oppertunity to create a website from scratch using PHP.",
+    "category": "Languages",
+    "name": "PHP",
+    "docs": "https://www.php.net/docs.php"
+  },
+  {
+    "img": "/images/techs/react.png",
+    "desc": "React is a JavaScript library for building component based UI. It takes advantage of a virtual DOM which allows the client to update only components that have a change in state. This leads to clean user interfaces with seemless user experiences, especially for creating SPAs.",
+    "experience": "React is my go to front end library for views. My favorite thing about React is the ability to make flexible, reusable components which makes upkeep for scaling applications painless. When I need to maintain an app using ollder libraries I miss it!",
+    "category": "Client Side",
+    "name": "React",
+    "docs": "https://reactjs.org/"
+  },
+  {
+    "img": "/images/techs/redux.png",
+    "desc": "Redux is a predictable state library for JavaScript applications. Its main benefit when using it with React is that you no longer need to pass props down a deep tree of components but instead call them from the centralized provider.",
+    "experience": "I like to use Redux if I have an application with a deep component tree or a lot of interconnected components. If the application only has a few props like this React has a decent built in alternative with the context api.",
+    "category": "Client Side",
+    "name": "Redux",
+    "docs": "https://redux.js.org/"
+  },
+  {
+    "img": "/images/techs/html.png",
+    "desc": "HTML, or Hypertext Markup Language, is the foundation of web development. It defines the structure and content of web pages using a system of tags and attributes. HTML provides the framework for displaying text, images, links, forms, and other elements on the web.",
+    "experience": "I have extensive experience with HTML, having used it in all of my web development projects. I'm well-versed in its various elements and best practices.",
+    "category": "Client Side",
+    "name": "HTML",
+    "docs": "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  },
+  {
+    "img": "/images/techs/css.png",
+    "desc": "CSS, or Cascading Style Sheets is the language used for styling web pages. It allows developers to control the layout, colors, fonts, and other visual aspects of a web page to enhance its appearance and user experience.",
+    "experience": "I have a strong understanding of CSS and have used it extensively to style my web applications. I have used CSS in all of my projects both in its vanilla form and with preprocessors such as Sass and frameworks such as Bootstrap and Tailwind",
+    "category": "Client Side",
+    "name": "CSS",
+    "docs": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  },
+  {
+    "img": "/images/techs/tailwindcss.png",
+    "desc": "Tailwind CSS is a utility-first CSS framework that provides a set of utility classes to quickly style your web applications. It allows for rapid development by abstracting common styles into reusable classes and co-locating styles with markup.",
+    "experience": "Tailwind CSS is a current staple of my development process. I find it greatly speeds up dev time, allowing you to quickly scaffold our a page or component and style it at the same time while also providing the versatility and creative potential that vanilla CSS provides over other frameworks like Bootstrap.",
+    "category": "Client Side",
+    "name": "Tailwind",
+    "docs": "https://tailwindcss.com/docs/installation"
+  },
+
+  {
+    "img": "/images/techs/sass.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Client Side",
+    "name": "Sass",
+    "docs": "https://sass-lang.com/documentation/"
+  },
+  {
+    "img": "/images/techs/jquery.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Client Side",
+    "name": "JQuery",
+    "docs": "https://api.jquery.com/"
+  },
+  {
+    "img": "/images/techs/nextjs.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Server Side",
+    "name": "NextJS",
+    "docs": "https://nextjs.org/docs"
+  },
+  {
+    "img": "/images/techs/nodejs.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Server Side",
+    "name": "NodeJS",
+    "docs": "https://nodejs.org/en/docs/"
+  },
+  {
+    "img": "/images/techs/expressjs.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Server Side",
+    "name": "Express",
+    "docs": "https://expressjs.com/"
+  },
+  {
+    "img": "/images/techs/socketio.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Server Side",
+    "name": "SocketIo",
+    "docs": "https://socket.io/docs/v3/index.html"
+  },
+  {
+    "img": "/images/techs/jwt.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Server Side",
+    "name": "JWT",
+    "docs": "https://www.npmjs.com/package/jsonwebtoken"
+  },
+  {
+    "img": "/images/techs/postgresql.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Database",
+    "name": "Postgress",
+    "docs": "https://www.postgresql.org/docs/"
+  },
+  {
+    "img": "/images/techs/redis.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Database",
+    "name": "Redis",
+    "docs": "https://redis.io/docs/"
+  },
+  {
+    "img": "/images/techs/mongodb.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Database",
+    "name": "MongoDB",
+    "docs": "https://docs.mongodb.com/"
+  },
+  {
+    "img": "/images/techs/mongoose.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Database",
+    "name": "Mongoose",
+    "docs": "https://mongoosejs.com/docs/"
+  },
+  {
+    "img": "/images/techs/mysql.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Database",
+    "name": "MySQL",
+    "docs": "https://dev.mysql.com/doc/"
+  },
+  {
+    "img": "/images/techs/sequelize.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Database",
+    "name": "Sequelize",
+    "docs": "https://sequelize.org/"
+  },
+  {
+    "img": "/images/techs/jest.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Testing",
+    "name": "Jest",
+    "docs": "https://jestjs.io/docs/getting-started"
+  },
+  {
+    "img": "/images/techs/testing-library.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Testing",
+    "name": "Testing Library",
+    "docs": "https://testing-library.com/docs/"
+  },
+  {
+    "img": "/images/techs/cypress.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Testing",
+    "name": "Cypress",
+    "docs": "https://docs.cypress.io/guides/overview/why-cypress"
+  },
+  {
+    "img": "/images/techs/new-relic.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Testing",
+    "name": "New Relic",
+    "docs": "https://docs.newrelic.com/"
+  },
+  {
+    "img": "/images/techs/aws.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Deployment",
+    "name": "AWS",
+    "docs": "https://docs.aws.amazon.com/index.html"
+  },
+  {
+    "img": "/images/techs/nginx.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Deployment",
+    "name": "NGinX",
+    "docs": "https://nginx.org/en/docs/"
+  },
+  {
+    "img": "/images/techs/docker.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "Deployment",
+    "name": "Docker",
+    "docs": "https://docs.docker.com/"
+  },
+  {
+    "img": "/images/techs/git.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "DevTools/Workflow",
+    "name": "Git",
+    "docs": "https://git-scm.com/doc"
+  },
+  {
+    "img": "/images/techs/webpack.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "DevTools/Workflow",
+    "name": "Webpack",
+    "docs": "https://webpack.js.org/"
+  },
+  {
+    "img": "/images/techs/npm.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "DevTools/Workflow",
+    "name": "NPM",
+    "docs": "https://docs.npmjs.com/"
+  },
+  {
+    "img": "/images/techs/figma.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "DevTools/Workflow",
+    "name": "Figma",
+    "docs": "https://www.figma.com/best-practices/guide-to-developer-handoff/components-styles-and-documentation/"
+  },
+  {
+    "img": "/images/techs/gulp.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "DevTools/Workflow",
+    "name": "Gulp",
+    "docs": "https://gulpjs.com/docs/en/getting-started/quick-start"
+  },
+  {
+    "img": "/images/techs/github.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "DevTools/Workflow",
+    "name": "Github",
+    "docs": "https://github.com/"
+  },
+  {
+    "img": "/images/techs/bitbucket.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "DevTools/Workflow",
+    "name": "Bitbucket",
+    "docs": "https://bitbucket.org/"
+  },
+  {
+    "img": "/images/techs/jira.png",
+    "desc": "Coming Soon",
+    "experience": "Coming Soon",
+    "category": "DevTools/Workflow",
+    "name": "Jira",
+    "docs": "https://confluence.atlassian.com/jira"
+  }
 ]
