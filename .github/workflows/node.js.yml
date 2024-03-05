@@ -40,7 +40,7 @@ jobs:
       # Start pm2 process if it doesn't exist
       - name: Start pm2 process
         if: steps.pm2_check.outputs.exists == 'false'
-        run: pm2 start portfolio
+        run: pm2 start npm --name portfolio -- start && pm2 startup ubuntu
 
       # Restart pm2 process
       - name: Restart pm2 process
