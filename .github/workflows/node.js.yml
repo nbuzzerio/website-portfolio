@@ -23,7 +23,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
-      - run: npm i
 
       # Check if pm2 process with name 'portfolio' exists
       - name: Check if pm2 process exists
@@ -34,6 +33,10 @@ jobs:
       - name: Stop pm2 process
         if: steps.pm2_check.outputs.exists == 'true'
         run: pm2 stop portfolio
+
+      #Install npm packages
+      - name: Install npm packages
+        run: npm i
 
       # Run the build
       - name: Build for production
