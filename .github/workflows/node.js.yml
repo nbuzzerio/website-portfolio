@@ -27,7 +27,12 @@ jobs:
       # Check if pm2 process with name 'portfolio' exists
       - name: Check if pm2 process exists
         id: pm2_check
-        run: pm2 list | grep -q "portfolio" || echo "::set-output name=exists::false"
+        run: |
+          if pm2 list | grep -q "portfolio"; then
+            echo "::set-output name=exists::true"
+          else
+            echo "::set-output name=exists::false"
+          fi
 
       # Stop pm2 process if it exist
       - name: Stop pm2 process

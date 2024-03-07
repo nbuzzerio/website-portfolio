@@ -68,7 +68,7 @@ const algorithmsData = [
   },
 ];
 
-const algorithms = () => {
+const Algorithms = () => {
   const [algo, setAlgo] = useState(null);
 
   return (
@@ -99,4 +99,4 @@ const algorithms = () => {
   );
 };
 
-export default algorithms;
+export default Algorithms;

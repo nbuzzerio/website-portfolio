@@ -14,7 +14,13 @@
     "cypress:build": "npm run build:test && npm run cypress:start",
     "lint": "next lint",
     "test": "jest --watch --verbose --detectOpenHandles",
-    "coverage": "jest --watch --verbose --detectOpenHandles --coverage"
+    "coverage": "jest --watch --verbose --detectOpenHandles --coverage",
+    "prepare": "husky install",
+    "check-types": "tsc --pretty --noEmit",
+    "check-format": "prettier --check .",
+    "check-lint": "eslint . --ext ts --ext tsx --ext js",
+    "format": "prettier --write .",
+    "test-all": "npm run lint && ((npm run check-format && npm run check-lint && npm run check-types && node -e \"require('colors'); console.log('LINT SUCCESSFULLY COMPLETED.'.green)\") || (npm run format && node -e \"require('colors'); console.log('\\n\\n', 'WARNING: FILE CHANGES:'.red, 'Please add to staging.'); process.exit(1)\"))"
   },
   "repository": {
     "type": "git",
@@ -50,9 +56,12 @@
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.14",
     "autoprefixer": "^10.4.7",
+    "colors": "^1.4.0",
     "env-cmd": "^10.1.0",
     "eslint": "8.16.0",
     "eslint-config-next": "12.1.6",
+    "eslint-config-prettier": "^9.1.0",
+    "husky": "^9.0.11",
     "jest": "^28.1.3",
     "jest-environment-jsdom": "^28.1.3",
     "msw": "^0.44.2",

@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"],
     "baseUrl": ".",
     "paths": {
       "@/*": ["*"]
@@ -19,7 +15,7 @@
     "esModuleInterop": true,
     "module": "esnext",
     "resolveJsonModule": true,
-    "moduleResolution":"node",
+    "moduleResolution": "node",
     "isolatedModules": true,
     "jsx": "preserve"
   },
@@ -27,7 +23,8 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "jest.setup.js", 
-    "server/index.js"  ],
-    "exclude": ["node_modules", "cypress", "./cypress.config.ts"]
+    "jest.setup.js",
+    "server/index.js"
+  ],
+  "exclude": ["node_modules", "cypress", "./cypress.config.ts"]
 }

@@ -84,13 +84,11 @@ function Technologies({ techs }) {
   });
 
   return (
-    <section
-      className="technologies relative flex w-full max-w-[1920px] flex-col overflow-hidden py-5 my-10 sm:my-2 sm:py-32 lg:flex-row-reverse"
-    >
+    <section className="technologies relative my-10 flex w-full max-w-[1920px] flex-col overflow-hidden py-5 sm:my-2 sm:py-32 lg:flex-row-reverse">
       <div className="left-panel flex w-full flex-col-reverse items-center sm:px-5 lg:w-4/12 lg:flex-col lg:pt-[10%]">
         <select
           name="techFilter"
-          className="techFilter bg-primary/50 lg:bg-primary/25 text-white sm:text-5xl lg:text-xl xl:text-3xl 2xl:text-5xl p-5 rounded-t-3xl z-10"
+          className="techFilter z-10 rounded-t-3xl bg-primary/50 p-5 text-white sm:text-5xl lg:bg-primary/25 lg:text-xl xl:text-3xl 2xl:text-5xl"
           value={filter}
           onChange={(e) => {
             handleSelect();
@@ -107,8 +105,12 @@ function Technologies({ techs }) {
           <option value="DevTools/Workflow">DevTools/Workflow</option>
         </select>
         <div className="animation-wrapper">
-          <div className="animation-container w-full flex justify-center py-10">
-            <Lottie animationData={laptopData} loop={10} style={{width: "65%"}}/>
+          <div className="animation-container flex w-full justify-center py-10">
+            <Lottie
+              animationData={laptopData}
+              loop={10}
+              style={{ width: "65%" }}
+            />
           </div>
         </div>
       </div>

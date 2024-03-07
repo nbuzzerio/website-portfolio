@@ -1,5 +1,3 @@
-import "@testing-library/cypress/add-commands"
+import "@testing-library/cypress/add-commands";
 
-Cypress.Commands.add('example', () => {
-
-})
+Cypress.Commands.add("example", () => {});

@@ -1,21 +1,21 @@
-import { createContext, useContext, useState } from 'react'
+import { createContext, useContext, useState } from "react";
 
-const AuthContext = createContext<string>('');
-const AuthUpdateContext = createContext<any>('');
+const AuthContext = createContext<string>("");
+const AuthUpdateContext = createContext<any>("");
 
 export function useAuth() {
-  return useContext(AuthContext)
+  return useContext(AuthContext);
 }
 
 export function useUpdateAuth() {
-  return useContext(AuthUpdateContext)
+  return useContext(AuthUpdateContext);
 }
 
 function AuthProvider({ children }: { children: React.ReactNode }) {
-  const [auth, setAuth] = useState('')
+  const [auth, setAuth] = useState("");
 
   function handleAuth(token: string) {
-    setAuth(token)
+    setAuth(token);
   }
 
   return (
@@ -24,7 +24,7 @@ function AuthProvider({ children }: { children: React.ReactNode }) {
         {children}
       </AuthUpdateContext.Provider>
     </AuthContext.Provider>
-  )
+  );
 }
 
-export default AuthProvider
+export default AuthProvider;

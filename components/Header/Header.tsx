@@ -6,21 +6,21 @@ function Header() {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-
-    document.querySelector('.menu-btn-wrapper').addEventListener('click', (e) => {
-      document.querySelector('.menu-btn').classList.add('clicked')
-    })
+    document
+      .querySelector(".menu-btn-wrapper")
+      .addEventListener("click", (e) => {
+        document.querySelector(".menu-btn").classList.add("clicked");
+      });
 
     if (dropDown && !loaded) setLoaded(true);
-
   }, [dropDown]);
 
   const handleDropDown = () => {
     if (!dropDown) {
-      document.body.style.height = "100vh"
+      document.body.style.height = "100vh";
       document.body.style.width = "100%";
     } else {
-      document.querySelector('.menu-btn').classList.remove('clicked')
+      document.querySelector(".menu-btn").classList.remove("clicked");
     }
 
     setDropDown(!dropDown);
@@ -28,15 +28,15 @@ function Header() {
 
   return (
     <>
-      <div className="navbar absolute w-full h-[80px] lg:h-[140px] flex justify-center z-50">
+      <div className="navbar absolute z-50 flex h-[80px] w-full justify-center lg:h-[140px]">
         <nav
-          className={`absolute z-10 wrapper max-w-bg w-full h-[80px] lg:h-[140px] flex justify-between items-center bg-gray-500 mx-auto`}
+          className={`wrapper max-w-bg absolute z-10 mx-auto flex h-[80px] w-full items-center justify-between bg-gray-500 lg:h-[140px]`}
         >
-          <div className="logo-wrapper px-10 nav-item hidden lg:flex z-10">
+          <div className="logo-wrapper nav-item z-10 hidden px-10 lg:flex">
             <Link href="/">
               <a href="/">
                 <img
-                  className="px-2 h-7 lg:h-10 cursor-pointer"
+                  className="h-7 cursor-pointer px-2 lg:h-10"
                   src="/images/logo.svg"
                   alt="logo image"
                 />
@@ -44,18 +44,24 @@ function Header() {
             </Link>
           </div>
 
-          <div className="home-wrapper lg:absolute lg:w-full px-10 flex justify-center">
+          <div className="home-wrapper flex justify-center px-10 lg:absolute lg:w-full">
             <Link href="/">
-              <a title="home" className="uppercase text-4xl md:text-6xl lg:text-7xl text-black font-extrabold">
+              <a
+                title="home"
+                className="text-4xl font-extrabold uppercase text-black md:text-6xl lg:text-7xl"
+              >
                 TEXT LOGO
               </a>
             </Link>
           </div>
 
-          <div className="right-header-wrapper flex items-center nav-item px-10 z-10">
-            <div className="menu-btn-wrapper flex items-center" onClick={handleDropDown}>
-              <div className="uppercase text-black text-2xl lg:text-3xl hidden sm:block tracking-[0.07rem]"></div>
-              <div className="menu-btn w-[40px] sm:w-[50px] flex flex-col cursor-pointer">
+          <div className="right-header-wrapper nav-item z-10 flex items-center px-10">
+            <div
+              className="menu-btn-wrapper flex items-center"
+              onClick={handleDropDown}
+            >
+              <div className="hidden text-2xl uppercase tracking-[0.07rem] text-black sm:block lg:text-3xl"></div>
+              <div className="menu-btn flex w-[40px] cursor-pointer flex-col sm:w-[50px]">
                 <span className="line1 w-1/2"></span>
                 <span className="line2 w-full"></span>
                 <span className="line3 w-9/12"></span>
@@ -64,8 +70,9 @@ function Header() {
           </div>
           {loaded && (
             <div
-              className={`dropdown-wrapper ${dropDown ? "animate-open" : "animate-close"
-                } fixed top-0 h-full w-full flex justify-end hd:right-[calc((100vw-1937px)/2)]`}
+              className={`dropdown-wrapper ${
+                dropDown ? "animate-open" : "animate-close"
+              } hd:right-[calc((100vw-1937px)/2)] fixed top-0 flex h-full w-full justify-end`}
             >
               <div
                 className="dropdown-overlay w-0 lg:w-7/12"
@@ -73,16 +80,16 @@ function Header() {
               ></div>
               <ul
                 className={
-                  "bg-gray-500 bg-cover flex flex-col justify-evenly text-right px-20 py-10 overflow-hidden h-full w-full lg:w-[56%] xl:w-5/12"
+                  "flex h-full w-full flex-col justify-evenly overflow-hidden bg-gray-500 bg-cover px-20 py-10 text-right lg:w-[56%] xl:w-5/12"
                 }
               >
-                <li className="text-green-400 text-xl xs:text-2xl lg:text-3xl pb-10 uppercase tracking-[.2rem]">
+                <li className="pb-10 text-xl uppercase tracking-[.2rem] text-green-400 lg:text-3xl xs:text-2xl">
                   Menu
                 </li>
                 <li className="uppercase tracking-[.2rem]">
                   <Link href="/">
                     <a
-                      className="text-green-400 hover:text-red-700 text-2xl xs:text-3xl lg:text-4xl"
+                      className="text-2xl text-green-400 hover:text-red-700 lg:text-4xl xs:text-3xl"
                       onClick={handleDropDown}
                     >
                       Home

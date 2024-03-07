@@ -15,7 +15,7 @@ const Algorithm = ({ title, prompt, soln, bigO }: Algo) => {
   }
 
   return (
-    <article className="w-full max-w-7xl p-20 mx-auto">
+    <article className="mx-auto w-full max-w-7xl p-20">
       <h2 className="text-6xl text-slate-200">{title}:</h2>
       <p className="py-10 indent-16 text-xl leading-8 text-gray-400">
         {prompt}
@@ -24,7 +24,7 @@ const Algorithm = ({ title, prompt, soln, bigO }: Algo) => {
         <div className="absolute top-0 left-0 flex w-full justify-between">
           Copy solution code
           <button
-            className="flex items-center justify-center rounded-bl-md bg-white/30 px-5 py-2 capitalize active:scale-105 hover:bg-white/80"
+            className="flex items-center justify-center rounded-bl-md bg-white/30 px-5 py-2 capitalize hover:bg-white/80 active:scale-105"
             onClick={() => copyToClipboard(soln)}
           >
             copy code
