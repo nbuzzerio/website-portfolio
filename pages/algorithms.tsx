@@ -25,7 +25,7 @@ const algorithmsData = [
     
       return []
     }`,
-    bigO: `0(n) space where n is the size of the array\n0(n) time where nj is the size of the array`,
+    bigO: `0(n) space where n is the size of the array\n0(n) time where n is the size of the array`,
   },
   {
     title: "Closest Value BST",
@@ -73,7 +73,7 @@ const Algorithms = () => {
 
   return (
     <section className="min-h-screen w-full bg-black">
-      <h1 className="py-20 text-center text-9xl text-white underline">
+      <h1 className="py-20 text-center text-5xl text-white underline md:text-9xl">
         Algorithms
       </h1>
       <div className="algo-btns flex flex-wrap items-center justify-center gap-7">
