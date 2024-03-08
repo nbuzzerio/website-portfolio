@@ -28,6 +28,26 @@ const algorithmsData = [
     bigO: `0(n) space where n is the size of the array\n0(n) time where n is the size of the array`,
   },
   {
+    title: "Valid Subsequence",
+    prompt:
+      "Given an array (array) of integers write a function that determines whether the second array (sequence) is a subsequence of the first one. The subsequence must appear in the same order in the array but not necessarily with values adjacent within the array.",
+    soln: `
+    function validSubsequence(array, sequence) {
+
+      let j = 0
+      
+      for (let i = 0; i < array.length; i++) {
+        if (array[i] === sequence[j]) {
+          j++;
+        }
+        if (j === sequence.length) return true
+      }
+      return false
+      
+    }`,
+    bigO: `O(n) time where n is the length of the array\nO(1) space`,
+  },
+  {
     title: "Closest Value BST",
     prompt:
       "Write a function that takes a Binary Search Tree (BST) and a target integer value and returns the closest value to that target value within the BST. Each node has a value, left and right child node, or null",
@@ -73,13 +93,13 @@ const Algorithms = () => {
 
   return (
     <section className="min-h-screen w-full bg-black">
-      <h1 className="py-20 text-center text-5xl text-white underline md:text-9xl">
+      <h1 className="py-20 text-center text-4xl text-white underline md:text-9xl">
         Algorithms
       </h1>
-      <div className="algo-btns flex flex-wrap items-center justify-center gap-7">
+      <div className="algo-btns flex flex-wrap items-center justify-center gap-7 px-5">
         {algorithmsData.map((a: Algo, i) => (
           <button
-            className="rounded-3xl border border-white p-3 px-10 text-red-800 hover:scale-105 active:scale-110"
+            className="w-full rounded-3xl border border-white p-3 px-10 text-red-800 hover:scale-105 active:scale-110 md:w-auto md:min-w-[200px]"
             onClick={() => setAlgo(a)}
             key={i}
           >
