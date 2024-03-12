@@ -36,7 +36,7 @@ const algorithmsData = [
 
       let j = 0
       
-      for (let i = 0; i < array.length; i++) {
+      for (let i5 = 0; i < array.length; i++) {
         if (array[i] === sequence[j]) {
           j++;
         }
@@ -85,6 +85,44 @@ const algorithmsData = [
     bigO: `Recursive approach
     O(log(n)) time
     O(log(n)) space`,
+  },
+  {
+    title: "Sorted Squared Array",
+    prompt:
+      "Write a function that takes a sorted array of integers and returns a sorted array of their squares.",
+    soln: `
+    function sortedSquaredArray(array) {
+      let l;
+      let r;
+      let results = [];
+      let smallestSq = array[0]**2;
+      let smallestIndex = 0;
+    
+      //find closest to 0
+      for (var i = 0; i < array.length; i++) {
+        if (array[i]**2 < smallestSq) {
+          smallestSq = array[i]**2
+          smallestIndex = i
+        }
+      }
+      l = smallestIndex-1
+      r = smallestIndex+1
+      results.push(smallestSq)
+    
+      while (l >= 0 || r < array.length) {
+        if (l < 0 || (array[l]**2 >= array[r]**2)) {
+          results.push(array[r]**2)
+          r++;
+        } else if (r === array.length || (array[l]**2 < array[r]**2)) {
+          results.push(array[l]**2)
+          l--;
+        }
+      }
+      
+      
+      return results;
+    }`,
+    bigO: `O(n) time where n is the length of the array\nO(n) space where n is the length of the array`,
   },
 ];
 
