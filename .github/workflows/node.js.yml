@@ -37,7 +37,7 @@ jobs:
       # Stop pm2 process if it exist
       - name: Stop pm2 process
         if: steps.pm2_check.outputs.exists == 'true'
-        run: pm2 stop portfolio
+        run: pm2 stop all
 
       #Install npm packages
       - name: Install npm packages
@@ -59,4 +59,4 @@ jobs:
 
       # Restart pm2 process
       - name: Restart pm2 process
-        run: pm2 restart portfolio
+        run: pm2 restart all
