@@ -79,15 +79,15 @@
     "name": "Tailwind",
     "docs": "https://tailwindcss.com/docs/installation"
   },
-
   {
     "img": "/images/techs/sass.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
+    "desc": "Sass (Syntactically Awesome Style Sheets) is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). It adds features such as variables, nested rules, and mixins, which are not available in plain CSS.",
+    "experience": "Sass is a powerful tool that I use in my projects to streamline CSS development. Its features, especially nesting, help me write cleaner and more maintainable stylesheets.",
     "category": "Client Side",
     "name": "Sass",
     "docs": "https://sass-lang.com/documentation/"
   },
+
   {
     "img": "/images/techs/jquery.png",
     "desc": "Coming Soon",
