@@ -90,12 +90,13 @@
 
   {
     "img": "/images/techs/jquery.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
+    "desc": "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, and animation much simpler with an easy-to-use API that works across a multitude of browsers.",
+    "experience": "I have used jquery a lot in the past. It used to be a staple in my projects. However, I find many of the best features are native to javascript or are taken care of by other libraries and frameworks these days. It is still a great option for kick-starting small projects with a lot of DOM manipulation required!",
     "category": "Client Side",
-    "name": "JQuery",
+    "name": "jQuery",
     "docs": "https://api.jquery.com/"
   },
+
   {
     "img": "/images/techs/nextjs.png",
     "desc": "Coming Soon",
