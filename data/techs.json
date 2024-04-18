@@ -96,15 +96,15 @@
     "name": "jQuery",
     "docs": "https://api.jquery.com/"
   },
-
   {
     "img": "/images/techs/nextjs.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
+    "desc": "Next.js is an open-source React front-end development web framework that enables functionality such as server-side rendering and generating static websites for React based web applications. It is a robust tool for building complete web applications that rely on data that needs to change frequently.",
+    "experience": "I have a lot of experience using Next.js as my main framework in my current professional role. Its integrated toolset has significantly simplified the process of both server-side rendering and static site generation, enhancing the performance of my applications. The routing system and API routes are exceptionally well implemented and provide a seamless development experience.",
     "category": "Server Side",
     "name": "NextJS",
     "docs": "https://nextjs.org/docs"
   },
+
   {
     "img": "/images/techs/nodejs.png",
     "desc": "Coming Soon",
