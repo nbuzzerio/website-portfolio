@@ -104,15 +104,15 @@
     "name": "NextJS",
     "docs": "https://nextjs.org/docs"
   },
-
   {
     "img": "/images/techs/nodejs.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
+    "desc": "Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser. This allows developers to use JavaScript to write command-line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.",
+    "experience": "I have extensive experience with Node.js, leveraging it for building scalable network applications. Its non-blocking, event-driven architecture is ideal for handling numerous connections concurrently, making it a perfect choice for developing high-performance server-side applications.",
     "category": "Server Side",
     "name": "NodeJS",
     "docs": "https://nodejs.org/en/docs/"
   },
+
   {
     "img": "/images/techs/expressjs.png",
     "desc": "Coming Soon",
