@@ -112,15 +112,15 @@
     "name": "NodeJS",
     "docs": "https://nodejs.org/en/docs/"
   },
-
   {
     "img": "/images/techs/expressjs.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
+    "desc": "Express.js is a fast, unopinionated, minimalist web framework for Node.js. Its simplicity and flexibility allow for rapid development of endpoints and handling HTTP requests, making it indispensable for projects requiring quick iterations and scalable infrastructure.",
+    "experience": "I have significant experience using Express.js to streamline server-side logic for node web applications. Many of my smaller projects take advantage of its lightweight setup. It's great for setting up middleware and a CRUD API for any application.",
     "category": "Server Side",
     "name": "Express",
     "docs": "https://expressjs.com/"
   },
+
   {
     "img": "/images/techs/socketio.png",
     "desc": "Coming Soon",
