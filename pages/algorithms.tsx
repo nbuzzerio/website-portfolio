@@ -10,6 +10,25 @@ export interface Algo {
 
 const algorithmsData = [
   {
+    title: "Transpose Matrix",
+    prompt:
+      "Given a matrix, write a function that returns the input matrix flipped across its main diagonal (top-left to bottom-right).",
+    soln: `
+    function transposeMatrix(matrix) {
+      const transposed = [];
+  
+      for (let i = 0; i < matrix.length; i++) {
+        for (let j = 0; j < matrix[i].length; j++) {
+          if (!transposed[j]) transposed[j] = [];
+          transposed[j][i] = matrix[i][j];
+        }
+      }
+  
+      return transposed;
+    }`,
+    bigO: `O(w * h) space \nO(w * h) time where w is the width of the matrix and h is the height of the matrix`,
+  },
+  {
     title: "Two Sum",
     prompt:
       "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.",
