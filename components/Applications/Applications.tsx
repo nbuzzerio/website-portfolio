@@ -46,11 +46,11 @@ function Applications(props) {
             <div className="appThumbnailInner relative h-full w-full overflow-x-visible transition duration-700 group-hover:[transform:rotateY(180deg)] ">
               <img
                 className="appThumbnailImg-front absolute h-full w-full"
-                src="https://nb-portfolio-images.s3.amazonaws.com/chessApp.jpeg"
+                src="https://nb-portfolio-images.s3.us-east-1.amazonaws.com/games-catalog.jpg"
               ></img>
               <img
                 className="appThumbnailImg-back absolute h-full w-full [transform:rotateY(180deg)]"
-                src="/images/chess-site.jpg"
+                src="https://nb-portfolio-images.s3.us-east-1.amazonaws.com/games-catalog-page.jpg"
               ></img>
             </div>
           </div>
@@ -82,11 +82,11 @@ function Applications(props) {
             <div className="appThumbnailInner relative h-full w-full overflow-x-visible transition duration-700 group-hover:[transform:rotateY(180deg)] ">
               <img
                 className="appThumbnailImg-front absolute h-full w-full"
-                src="https://nb-portfolio-images.s3.amazonaws.com/chessApp.jpeg"
+                src="https://nb-portfolio-images.s3.amazonaws.com/algorithms.jpg"
               ></img>
               <img
                 className="appThumbnailImg-back absolute h-full w-full [transform:rotateY(180deg)]"
-                src="/images/chess-site.jpg"
+                src="https://nb-portfolio-images.s3.amazonaws.com/algorithms-page.jpg"
               ></img>
             </div>
           </div>
@@ -106,7 +106,7 @@ function Applications(props) {
               className="appLinks relative py-3 text-base text-white hover:underline sm:text-xl lg:text-lg xl:text-xl"
               rel="noreferrer"
               target="_blank"
-              href="https://nickbuzzerio.com/chess/"
+              href="https://nickbuzzerio.com/algorithms/"
             >
               Check my work!
             </a>
