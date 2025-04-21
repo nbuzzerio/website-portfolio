@@ -1,0 +1,47 @@
+[
+  {
+    "title": "LTO Moonbase Website",
+    "description": "Full-stack marketing and onboarding website for a blockchain leasing startup. Built from scratch with React and Node.js, deployed via Nginx with SSL for scalability and security.",
+    "techStack": "React | Node.js | Express | Nginx",
+    "frontImage": "https://nb-portfolio-images.s3.amazonaws.com/moonbaselogo.jpg",
+    "backImage": "https://nb-portfolio-images.s3.amazonaws.com/ltomoonbase.gif",
+    "linkUrl": "https://ltomoonbase.club/",
+    "linkText": "Visit Site"
+  },
+  {
+    "title": "Game Catalog",
+    "description": "Polished video games directory app built with Next.js and TypeScript. Features dynamic filtering, search, trailer previews, and skeleton loading for optimized UX.",
+    "techStack": "Next.js | TypeScript | Tailwind | REST API",
+    "frontImage": "https://nb-portfolio-images.s3.us-east-1.amazonaws.com/games-catalog.jpg",
+    "backImage": "https://nb-portfolio-images.s3.us-east-1.amazonaws.com/games-catalog-page.jpg",
+    "linkUrl": "https://nickbuzzerio.com/games-catalog/",
+    "linkText": "Find a Game"
+  },
+  {
+    "title": "Algorithm Showcase",
+    "description": "Curated collection of coding interview problems with detailed solutions and Big-O complexity analysis. Built for technical exploration and educational practice.",
+    "techStack": "JavaScript | HTML | CSS",
+    "frontImage": "https://nb-portfolio-images.s3.amazonaws.com/algorithms.jpg",
+    "backImage": "https://nb-portfolio-images.s3.amazonaws.com/algorithms-page.jpg",
+    "linkUrl": "https://nickbuzzerio.com/algorithms/",
+    "linkText": "Check my work!"
+  },
+  {
+    "title": "YouTube Subscription Organizer",
+    "description": "Personalized YouTube subscription manager built with Vite, React, and TypeScript. Lets users categorize subscriptions after Google OAuth login for easier, mood-based browsing.",
+    "techStack": "Vite | React | TypeScript | Google OAuth",
+    "frontImage": "https://nb-portfolio-images.s3.amazonaws.com/ytso.jpeg",
+    "backImage": "https://nb-portfolio-images.s3.amazonaws.com/YTSOSite-min.png",
+    "linkUrl": "https://github.com/nbuzzerio/ytso-vite",
+    "linkText": "Checkout Code"
+  },
+  {
+    "title": "Multiplayer Chess",
+    "description": "Real-time multiplayer chess platform powered by WebSocket communication. Allows quick room creation and play without accounts, built with React and Node.js.",
+    "techStack": "React | Socket.io | Node.js | MongoDB",
+    "frontImage": "https://nb-portfolio-images.s3.amazonaws.com/chessApp.jpeg",
+    "backImage": "/images/chess-site.jpg",
+    "linkUrl": "https://nickbuzzerio.com/chess/",
+    "linkText": "Play a Game"
+  }
+]

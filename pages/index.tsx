@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Technologies from "@/components/Technologies";
 
 import techs from "../data/techs.json";
+
 import Applications from "@/components/Applications";
 
 export const getStaticProps = async (context: any) => {
