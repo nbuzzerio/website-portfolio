@@ -1,3 +1,4 @@
+import Image from "next/image";
 import handleClick from "@/public/helper/technologies_handleClick";
 import { useEffect, useState } from "react";
 
@@ -46,10 +47,13 @@ function Technologies({ techs }) {
         }}
       >
         <div className="img-wrapper pointer-events-none flex h-full w-full flex-col justify-center">
-          <img
+          <Image
             src={tech.img}
             alt={`${tech.name} Icon`}
-            className={`tech-icon ${tech.name} pointer-events-auto w-full select-none`}
+            className={`tech-icon ${tech.name} pointer-events-auto w-full select-none object-contain`}
+            width={640} // or whatever size you need
+            height={640}
+            unoptimized={false}
           />
         </div>
         <div className="tech__info-wrapper pointer-events-auto my-[4%] hidden h-full w-full animate-accordion">
@@ -86,7 +90,11 @@ function Technologies({ techs }) {
   return (
     <section className="technologies relative my-10 flex w-full max-w-[1920px] flex-col overflow-hidden py-5 sm:my-2 sm:py-32 lg:flex-row-reverse">
       <div className="left-panel flex w-full flex-col-reverse items-center sm:px-5 lg:w-4/12 lg:flex-col lg:pt-[10%]">
+        <label htmlFor="techFilter" className="sr-only">
+          Filter by Technology
+        </label>
         <select
+          id="techFilter"
           name="techFilter"
           className="techFilter z-10 rounded-t-3xl bg-primary/50 p-5 text-white sm:text-5xl lg:bg-primary/25 lg:text-xl xl:text-3xl 2xl:text-5xl"
           value={filter}

@@ -1,9 +1,13 @@
+import Image from "next/image";
 import applicationCards from "../../data/application_cards.json";
 
 function Applications() {
   return (
-    <section className="sectionContainer flex w-full flex-col items-center justify-center bg-primary-dark">
-      <h2 className="py-10 text-5xl text-black underline lg:text-7xl">
+    <section
+      className="sectionContainer flex w-full flex-col items-center justify-center bg-primary-dark"
+      id="projects"
+    >
+      <h2 className="py-10 text-5xl text-white underline lg:text-7xl">
         Applications
       </h2>
 
@@ -23,15 +27,20 @@ function Applications() {
                 {/* Thumbnail */}
                 <div className="appThumbnail group aspect-[1.33] w-full">
                   <div className="appThumbnailInner relative h-full w-full overflow-x-visible transition duration-700 group-hover:[transform:rotateY(180deg)]">
-                    <img
-                      className="appThumbnailImg-front absolute h-full w-full"
+                    <Image
+                      className="appThumbnailImg-front absolute h-full w-full object-cover"
                       src={app.frontImage}
                       alt={`${app.title} front`}
+                      fill
+                      priority={false}
                     />
-                    <img
-                      className="appThumbnailImg-back absolute h-full w-full [transform:rotateY(180deg)]"
+
+                    <Image
+                      className="appThumbnailImg-back absolute h-full w-full object-cover [transform:rotateY(180deg)]"
                       src={app.backImage}
                       alt={`${app.title} back`}
+                      fill
+                      priority={false}
                     />
                   </div>
                 </div>
@@ -40,9 +49,9 @@ function Applications() {
 
             {/* Info Section */}
             <div className="appInfo flex grow flex-col justify-between p-4 text-white">
-              <h4 className="appTitle py-3 text-lg text-white sm:text-2xl lg:text-xl xl:text-2xl">
+              <h3 className="appTitle py-3 text-lg text-white sm:text-2xl lg:text-xl xl:text-2xl">
                 {app.title}
-              </h4>
+              </h3>
 
               <p className="appDescription grow text-base text-white sm:text-xl lg:text-lg xl:text-xl">
                 {app.description}

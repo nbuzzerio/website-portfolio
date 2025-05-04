@@ -5,6 +5,20 @@ const nextConfig = {
     locales: ["en"],
     defaultLocale: "en",
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "nb-portfolio-images.s3.amazonaws.com",
+        pathname: "/**",
+      },
+      {
+        protocol: "https",
+        hostname: "nb-portfolio-images.s3.us-east-1.amazonaws.com",
+        pathname: "/**",
+      },
+    ],
+  },
   async rewrites() {
     return [
       {

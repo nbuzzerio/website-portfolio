@@ -56,18 +56,18 @@ function About() {
       <div className="section-path relative mx-auto flex h-screen w-full max-w-[1920px] translate-x-1/2 flex-col items-center justify-center bg-primary-dark py-5 sm:py-32 md:h-auto md:flex-row">
         <div className="left-panel flex w-full flex-col items-center justify-center sm:px-10 md:w-6/12 md:px-20 2xl:px-32"></div>
         <div className="right-panel flex w-full flex-col items-center justify-start px-10 sm:px-32 md:w-6/12 md:px-20 2xl:px-32">
-          <h2 className="pb-10 text-5xl text-black underline md:text-7xl">
+          <h2 className="pb-10 text-5xl text-white underline md:text-7xl">
             About Me
           </h2>
-          <p className="px-[2%] indent-16 text-2xl text-black md:text-xl xl:text-2xl 2xl:text-4xl">
+          <p className="px-[2%] text-2xl text-white md:text-xl xl:text-2xl 2xl:text-4xl">
             I am a Fullstack developer specialized in Javascript. I love working
             on new projects and finding new technologies to best fit the
             challenge. I am forever expanding my arsenal with new technologies
             and enjoy adapting my applications to roll with the latest and
-            greatest new thing...
+            greatest new thing
             <a
               id="resume"
-              className="text-white"
+              className="block text-white"
               target="_blank"
               rel="noreferrer"
               href="https://nb-portfolio-images.s3.amazonaws.com/Nicholas.Buzzerio.Resume.pdf"
