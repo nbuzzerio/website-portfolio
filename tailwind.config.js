@@ -56,8 +56,14 @@ module.exports = {
           "100%": { "clip-path": "polygon(0 0, 100% 0, 100% 100%, 0 100%)" },
         },
         jump: {
-          "0%": { transform: "translateY(125px)" },
-          "100%": { transform: "translateY(0px)" },
+          "0%": {
+            transform: "translateY(125px)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateY(0px)",
+            opacity: "1",
+          },
         },
         expand: {
           "0%": { width: "10%" },

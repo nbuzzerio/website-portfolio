@@ -1,308 +1,410 @@
 [
   {
     "img": "/images/techs/javascript.png",
-    "desc": "A dynamic programing language used for mainly for web development. Scripting with JavaScript allows developers to manipulate the DOM dynamically. The versitile language is used in browsers and on the backend with NodeJS.",
-    "experience": "JavaScript is the programing language I am most experienced in. I have created many projects using this powerful language from static pages to full stack applications.",
+    "desc": "JavaScript is the core programming language of the modern web, powering interactive browser experiences and server-side applications through Node.js.",
+    "experience": "JavaScript has been the primary language throughout my software engineering career. I use it to build enterprise web applications, reusable frontend systems, Node.js services, automation tools, and interactive personal projects.",
     "category": "Languages",
     "name": "JavaScript",
-    "docs": "https://developer.mozilla.org/en-US/docs/Web/javascript"
+    "docs": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
   },
   {
     "img": "/images/techs/typescript.png",
-    "desc": "TypeScript is a syntactic superset of JavaScript that adds static typing to the language. It helps developers write more robust code by strictly typing variables, objects, functions, etc. TypeScript will warn you of possible bugs before its compiled into JavaScript.",
-    "experience": "I have been taking advantage of TypeScript in all of my most recent JavaScript projects. The intellisence that comes along with using TypeScript makes developing code much more streamlined especially when using new libraries as it works as documention.",
+    "desc": "TypeScript extends JavaScript with static typing, making large applications safer to maintain, refactor, and scale.",
+    "experience": "TypeScript is my preferred language for modern frontend development. I use it across React and Next.js applications to model component contracts, CMS content, API responses, validation rules, and reusable application architecture.",
     "category": "Languages",
     "name": "TypeScript",
     "docs": "https://www.typescriptlang.org/docs/"
   },
   {
     "img": "/images/techs/python.png",
-    "desc": "Python is a dynamic programing language. Versitile, it can be used for an array of soltions such as creating programs, web development, data science, and machine learning to name a few. Python's intuitive syntax makes it quick to write and reads like plain english.",
-    "experience": "I have a basic knowlege of Python. I am familiar with the syntax and have used it to make a basic rest server using Flask. I am currently looking into machine learning using python and tensorflow.",
+    "desc": "Python is a versatile programming language widely used for automation, APIs, data work, and artificial intelligence.",
+    "experience": "I use Python for AI-focused projects and backend services, including FastAPI applications, local text-to-speech workflows, and experimentation related to my M.S. in Artificial Intelligence.",
     "category": "Languages",
     "name": "Python",
     "docs": "https://docs.python.org/3/"
   },
   {
     "img": "/images/techs/csharp.png",
-    "desc": "C# is an object-oriented and component-oriented typed programming language. It runs in the .NET framework which includes a vast selection of methods and libraries to take advantage of in your codebase.",
-    "experience": "I have a basic knowlege of C# and have been learning more in my free time. Mainly messing around with game development in the Unity engine but also spending a little time looking into ASP.NET.",
+    "desc": "C# is a statically typed, object-oriented language commonly used with .NET and the Unity game engine.",
+    "experience": "I use C# primarily for Unity development while building and refining a third-person game prototype. My work has included gameplay systems, combat, enemy behavior, health, UI, and environment interactions.",
     "category": "Languages",
     "name": "C#",
     "docs": "https://docs.microsoft.com/en-us/dotnet/csharp/"
   },
   {
     "img": "/images/techs/php.png",
-    "desc": "PHP is a server-side scripting language. It is used in web development and is able to be embeded in the HTML of a website. PHP is widely used throughout the web especially with the CMS wordpress.",
-    "experience": "I have a basic understanding of PHP mainly from maintaining legacy code at work. I have worked with the microframework Lumen to maintain a RESTful api. I would like an oppertunity to create a website from scratch using PHP.",
+    "desc": "PHP is a server-side language widely used for web applications, APIs, and content-management platforms.",
+    "experience": "My PHP experience comes primarily from maintaining legacy production code and working with Lumen-based REST APIs. I am comfortable reading, debugging, and making targeted updates in existing PHP applications.",
     "category": "Languages",
     "name": "PHP",
     "docs": "https://www.php.net/docs.php"
   },
   {
     "img": "/images/techs/react.png",
-    "desc": "React is a JavaScript library for building component based UI. It takes advantage of a virtual DOM which allows the client to update only components that have a change in state. This leads to clean user interfaces with seemless user experiences, especially for creating SPAs.",
-    "experience": "React is my go to front end library for views. My favorite thing about React is the ability to make flexible, reusable components which makes upkeep for scaling applications painless. When I need to maintain an app using ollder libraries I miss it!",
-    "category": "Client Side",
+    "desc": "React is a component-based library for building interactive and reusable user interfaces.",
+    "experience": "React has been the foundation of most of my professional frontend work. I use it to build reusable component systems, enterprise marketing experiences, CMS-driven interfaces, and interactive personal applications with a strong focus on accessibility and maintainability.",
+    "category": "Front-End",
     "name": "React",
-    "docs": "https://reactjs.org/"
+    "docs": "https://react.dev/"
   },
   {
-    "img": "/images/techs/redux.png",
-    "desc": "Redux is a predictable state library for JavaScript applications. Its main benefit when using it with React is that you no longer need to pass props down a deep tree of components but instead call them from the centralized provider.",
-    "experience": "I like to use Redux if I have an application with a deep component tree or a lot of interconnected components. If the application only has a few props like this React has a decent built in alternative with the context api.",
-    "category": "Client Side",
-    "name": "Redux",
-    "docs": "https://redux.js.org/"
+    "img": "/images/techs/nextjs.png",
+    "desc": "Next.js is a React framework for building production web applications with server rendering, static generation, routing, caching, and backend capabilities.",
+    "experience": "Next.js is the primary framework I use professionally. I have built and maintained enterprise marketing platforms, integrated Contentful, improved Lighthouse scores from roughly 40 to 95–100+, and led upgrades across major Next.js versions and evolving application architecture.",
+    "category": "Front-End",
+    "name": "Next.js",
+    "docs": "https://nextjs.org/docs"
   },
   {
     "img": "/images/techs/html.png",
-    "desc": "HTML, or Hypertext Markup Language, is the foundation of web development. It defines the structure and content of web pages using a system of tags and attributes. HTML provides the framework for displaying text, images, links, forms, and other elements on the web.",
-    "experience": "I have extensive experience with HTML, having used it in all of my web development projects. I'm well-versed in its various elements and best practices.",
-    "category": "Client Side",
+    "desc": "HTML provides the semantic structure and content of web pages and applications.",
+    "experience": "I use semantic HTML across all of my frontend work to support accessibility, maintainable component structure, search visibility, and reliable browser behavior.",
+    "category": "Front-End",
     "name": "HTML",
     "docs": "https://developer.mozilla.org/en-US/docs/Web/HTML"
   },
   {
     "img": "/images/techs/css.png",
-    "desc": "CSS, or Cascading Style Sheets is the language used for styling web pages. It allows developers to control the layout, colors, fonts, and other visual aspects of a web page to enhance its appearance and user experience.",
-    "experience": "I have a strong understanding of CSS and have used it extensively to style my web applications. I have used CSS in all of my projects both in its vanilla form and with preprocessors such as Sass and frameworks such as Bootstrap and Tailwind",
-    "category": "Client Side",
+    "desc": "CSS controls the visual design, layout, responsiveness, and presentation of web interfaces.",
+    "experience": "I have extensive experience building responsive, accessible interfaces with modern CSS. My work includes complex layouts, component styling, animation, cross-browser fixes, design-system implementation, and performance-conscious presentation.",
+    "category": "Front-End",
     "name": "CSS",
     "docs": "https://developer.mozilla.org/en-US/docs/Web/CSS"
   },
   {
     "img": "/images/techs/tailwindcss.png",
-    "desc": "Tailwind CSS is a utility-first CSS framework that provides a set of utility classes to quickly style your web applications. It allows for rapid development by abstracting common styles into reusable classes and co-locating styles with markup.",
-    "experience": "Tailwind CSS is a current staple of my development process. I find it greatly speeds up dev time, allowing you to quickly scaffold our a page or component and style it at the same time while also providing the versatility and creative potential that vanilla CSS provides over other frameworks like Bootstrap.",
-    "category": "Client Side",
-    "name": "Tailwind",
+    "desc": "Tailwind CSS is a utility-first framework for composing responsive interfaces directly in application markup.",
+    "experience": "I use Tailwind CSS to rapidly build and refine production interfaces while maintaining consistent spacing, typography, responsive behavior, and reusable design patterns. I also rely on standard CSS when a component requires more specialized styling.",
+    "category": "Front-End",
+    "name": "Tailwind CSS",
     "docs": "https://tailwindcss.com/docs/installation"
   },
   {
+    "img": "/images/techs/astro.png",
+    "desc": "Astro is a web framework focused on content-driven websites, fast page delivery, and minimal client-side JavaScript.",
+    "experience": "I have used Astro for content-focused frontend work and value its performance-first architecture. It is a strong option for marketing and editorial experiences where most content can be rendered without shipping a large client-side bundle.",
+    "category": "Front-End",
+    "name": "Astro",
+    "docs": "https://docs.astro.build/"
+  },
+  {
+    "img": "/images/techs/redux.png",
+    "desc": "Redux is a predictable state-management library for JavaScript applications with complex shared state.",
+    "experience": "I have used Redux in applications where state is shared across deeply nested or highly interconnected components. I choose it when centralized state provides a clear architectural benefit, while favoring simpler React state patterns when they are sufficient.",
+    "category": "Front-End",
+    "name": "Redux",
+    "docs": "https://redux.js.org/"
+  },
+  {
     "img": "/images/techs/sass.png",
-    "desc": "Sass (Syntactically Awesome Style Sheets) is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). It adds features such as variables, nested rules, and mixins, which are not available in plain CSS.",
-    "experience": "Sass is a powerful tool that I use in my projects to streamline CSS development. Its features, especially nesting, help me write cleaner and more maintainable stylesheets.",
-    "category": "Client Side",
+    "desc": "Sass extends CSS with features such as variables, nesting, modules, and reusable mixins.",
+    "experience": "I have used Sass in production codebases to organize large stylesheets and maintain reusable styling patterns. I am comfortable working in both modern CSS and established Sass architectures.",
+    "category": "Front-End",
     "name": "Sass",
     "docs": "https://sass-lang.com/documentation/"
   },
-
   {
     "img": "/images/techs/jquery.png",
-    "desc": "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, and animation much simpler with an easy-to-use API that works across a multitude of browsers.",
-    "experience": "I have used jquery a lot in the past. It used to be a staple in my projects. However, I find many of the best features are native to javascript or are taken care of by other libraries and frameworks these days. It is still a great option for kick-starting small projects with a lot of DOM manipulation required!",
-    "category": "Client Side",
+    "desc": "jQuery is a JavaScript library for DOM manipulation, event handling, and compatibility across older browser environments.",
+    "experience": "I have worked with jQuery in legacy applications and older frontend codebases. Although modern browser APIs and frameworks now cover most of its former use cases, I can maintain and modernize existing jQuery code when needed.",
+    "category": "Front-End",
     "name": "jQuery",
     "docs": "https://api.jquery.com/"
   },
   {
-    "img": "/images/techs/nextjs.png",
-    "desc": "Next.js is an open-source React front-end development web framework that enables functionality such as server-side rendering and generating static websites for React based web applications. It is a robust tool for building complete web applications that rely on data that needs to change frequently.",
-    "experience": "I have a lot of experience using Next.js as my main framework in my current professional role. Its integrated toolset has significantly simplified the process of both server-side rendering and static site generation, enhancing the performance of my applications. The routing system and API routes are exceptionally well implemented and provide a seamless development experience.",
-    "category": "Server Side",
-    "name": "NextJS",
-    "docs": "https://nextjs.org/docs"
+    "img": "/images/techs/w3c.png",
+    "desc": "Accessibility is the practice of designing and building digital experiences that people with a wide range of abilities can use.",
+    "experience": "Accessibility is a core part of my frontend work rather than a final checklist. I use semantic HTML, keyboard support, accessible naming, contrast, focus management, and user-centered testing to build more inclusive interfaces.",
+    "category": "Front-End",
+    "name": "Web Accessibility",
+    "docs": "https://www.w3.org/WAI/"
+  },
+  {
+    "img": "/images/techs/contentful.png",
+    "desc": "Contentful is a headless content management platform used to model, manage, and deliver structured content through APIs.",
+    "experience": "Contentful has been central to my professional work for several years. I build reusable frontend components around structured content models, integrate complex content relationships, and have automated WordPress-to-Contentful migrations that reduced manual migration effort by approximately 80%.",
+    "category": "CMS / Platforms",
+    "name": "Contentful",
+    "docs": "https://www.contentful.com/developers/docs/"
+  },
+  {
+    "img": "/images/techs/vercel.png",
+    "desc": "Vercel is a cloud platform for deploying and operating modern frontend applications, particularly those built with Next.js.",
+    "experience": "I use Vercel for deployments, preview environments, and production workflows across modern frontend projects. I have also completed Vercel and Next.js certifications to deepen my understanding of the platform and framework.",
+    "category": "CMS / Platforms",
+    "name": "Vercel",
+    "docs": "https://vercel.com/docs"
   },
   {
     "img": "/images/techs/nodejs.png",
-    "desc": "Node.js is an open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser. This allows developers to use JavaScript to write command-line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser.",
-    "experience": "I have extensive experience with Node.js, leveraging it for building scalable network applications. Its non-blocking, event-driven architecture is ideal for handling numerous connections concurrently, making it a perfect choice for developing high-performance server-side applications.",
-    "category": "Server Side",
-    "name": "NodeJS",
+    "desc": "Node.js is a JavaScript runtime used for backend services, tooling, automation, and build systems.",
+    "experience": "I use Node.js for REST APIs, development tooling, migration scripts, build workflows, and full-stack applications. It has also supported automation work that significantly reduced manual content-migration effort.",
+    "category": "Back-End",
+    "name": "Node.js",
     "docs": "https://nodejs.org/en/docs/"
   },
   {
     "img": "/images/techs/expressjs.png",
-    "desc": "Express.js is a fast, unopinionated, minimalist web framework for Node.js. Its simplicity and flexibility allow for rapid development of endpoints and handling HTTP requests, making it indispensable for projects requiring quick iterations and scalable infrastructure.",
-    "experience": "I have significant experience using Express.js to streamline server-side logic for node web applications. Many of my smaller projects take advantage of its lightweight setup. It's great for setting up middleware and a CRUD API for any application.",
-    "category": "Server Side",
+    "desc": "Express is a lightweight Node.js framework for building APIs, middleware, and server-side applications.",
+    "experience": "I have used Express to create REST APIs and backend services for full-stack projects. I am comfortable with routing, middleware, request handling, error handling, and integrating application data.",
+    "category": "Back-End",
     "name": "Express",
     "docs": "https://expressjs.com/"
   },
-
+  {
+    "img": "/images/techs/fastapi.png",
+    "desc": "FastAPI is a modern Python framework for building high-performance APIs with type-based validation and automatic documentation.",
+    "experience": "I use FastAPI in AI-focused projects to expose local inference services, manage asynchronous text-to-speech jobs, stream generated audio, and support frontend applications through clear REST endpoints.",
+    "category": "Back-End",
+    "name": "FastAPI",
+    "docs": "https://fastapi.tiangolo.com/"
+  },
   {
     "img": "/images/techs/socketio.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "Server Side",
-    "name": "SocketIo",
+    "desc": "Socket.IO enables real-time, bidirectional communication between clients and servers.",
+    "experience": "I have used Socket.IO in real-time application work, including multiplayer functionality where clients need to exchange updates without repeated page requests.",
+    "category": "Back-End",
+    "name": "Socket.IO",
     "docs": "https://socket.io/docs/v3/index.html"
   },
   {
     "img": "/images/techs/jwt.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "Server Side",
+    "desc": "JSON Web Tokens are a compact format for securely transmitting signed claims between systems.",
+    "experience": "I have used JWT-based authentication in full-stack applications to protect routes, maintain authenticated sessions, and authorize access to server resources.",
+    "category": "Back-End",
     "name": "JWT",
     "docs": "https://www.npmjs.com/package/jsonwebtoken"
   },
   {
     "img": "/images/techs/postgresql.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "Database",
-    "name": "Postgress",
+    "desc": "PostgreSQL is a relational database known for strong standards support, reliability, and advanced querying features.",
+    "experience": "I have used PostgreSQL in full-stack project work involving relational data, structured queries, and API-backed applications. My strongest expertise remains on the frontend, but I am comfortable working with established schemas and common database operations.",
+    "category": "Back-End",
+    "name": "PostgreSQL",
     "docs": "https://www.postgresql.org/docs/"
   },
   {
-    "img": "/images/techs/redis.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "Database",
-    "name": "Redis",
-    "docs": "https://redis.io/docs/"
+    "img": "/images/techs/mysql.png",
+    "desc": "MySQL is a relational database system used by a wide range of web applications and backend platforms.",
+    "experience": "I have experience working with MySQL-backed applications and relational data through established schemas and APIs. My day-to-day specialization remains frontend engineering rather than database administration.",
+    "category": "Back-End",
+    "name": "MySQL",
+    "docs": "https://dev.mysql.com/doc/"
   },
   {
     "img": "/images/techs/mongodb.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "Database",
+    "desc": "MongoDB is a document-oriented database designed for flexible JSON-like data models.",
+    "experience": "I have used MongoDB in full-stack JavaScript projects to store and query application data. I am comfortable working with document models, CRUD operations, and API integrations.",
+    "category": "Back-End",
     "name": "MongoDB",
     "docs": "https://docs.mongodb.com/"
   },
   {
     "img": "/images/techs/mongoose.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "Database",
+    "desc": "Mongoose is an object-modeling library for MongoDB and Node.js that provides schemas, validation, and query helpers.",
+    "experience": "I have used Mongoose to define application models, validate data, and interact with MongoDB from Node.js services.",
+    "category": "Back-End",
     "name": "Mongoose",
     "docs": "https://mongoosejs.com/docs/"
   },
   {
-    "img": "/images/techs/mysql.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "Database",
-    "name": "MySQL",
-    "docs": "https://dev.mysql.com/doc/"
-  },
-  {
     "img": "/images/techs/sequelize.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "Database",
+    "desc": "Sequelize is an object-relational mapper for Node.js applications using SQL databases.",
+    "experience": "I have used Sequelize in full-stack project work to define models, manage relationships, and query relational data from Node.js applications.",
+    "category": "Back-End",
     "name": "Sequelize",
     "docs": "https://sequelize.org/"
   },
   {
+    "img": "/images/techs/redis.png",
+    "desc": "Redis is an in-memory data store commonly used for caching, queues, sessions, and fast temporary state.",
+    "experience": "I have foundational experience with Redis concepts and its role in application architecture, particularly for caching and short-lived server state. It is not currently one of my primary production technologies.",
+    "category": "Back-End",
+    "name": "Redis",
+    "docs": "https://redis.io/docs/"
+  },
+  {
     "img": "/images/techs/jest.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
+    "desc": "Jest is a JavaScript testing framework for unit and integration tests.",
+    "experience": "I use Jest to validate frontend logic, components, utilities, and application behavior. I value tests most when they protect stable business rules and make refactoring safer.",
     "category": "Testing",
     "name": "Jest",
     "docs": "https://jestjs.io/docs/getting-started"
   },
   {
     "img": "/images/techs/testing-library.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
+    "desc": "React Testing Library provides utilities for testing React interfaces through behavior that resembles how users interact with the application.",
+    "experience": "I use React Testing Library with Jest to test components from the user's perspective, emphasizing accessible queries, realistic interaction, and observable behavior rather than implementation details.",
     "category": "Testing",
-    "name": "Testing Library",
-    "docs": "https://testing-library.com/docs/"
+    "name": "React Testing Library",
+    "docs": "https://testing-library.com/docs/react-testing-library/intro/"
   },
   {
     "img": "/images/techs/cypress.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
+    "desc": "Cypress is an end-to-end testing framework for validating browser-based application workflows.",
+    "experience": "I have used Cypress to test complete user flows and browser interactions. I am comfortable maintaining end-to-end coverage and diagnosing failures across frontend workflows.",
     "category": "Testing",
     "name": "Cypress",
     "docs": "https://docs.cypress.io/guides/overview/why-cypress"
   },
   {
-    "img": "/images/techs/new-relic.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
+    "img": "/images/techs/playwright.png",
+    "desc": "Playwright is a browser automation framework for end-to-end testing across Chromium, Firefox, and WebKit.",
+    "experience": "I use Playwright to validate critical user journeys, browser behavior, and application regressions in modern React and Next.js projects. I am comfortable writing and maintaining end-to-end tests that exercise real workflows.",
     "category": "Testing",
-    "name": "New Relic",
-    "docs": "https://docs.newrelic.com/"
+    "name": "Playwright",
+    "docs": "https://playwright.dev/"
   },
   {
     "img": "/images/techs/aws.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "Deployment",
+    "desc": "Amazon Web Services provides cloud infrastructure for hosting, storage, networking, delivery, and application deployment.",
+    "experience": "I have used AWS services including EC2, S3, and CloudFront to host applications and static assets. My deployment work has also included SSL, Nginx, and production server configuration.",
+    "category": "Cloud & DevOps",
     "name": "AWS",
     "docs": "https://docs.aws.amazon.com/index.html"
   },
   {
+    "img": "/images/techs/awsec2.png",
+    "desc": "Amazon EC2 provides configurable virtual servers for hosting applications and backend services.",
+    "experience": "I have used EC2 to deploy and maintain applications, configure Linux servers, manage SSL, and serve frontend and backend workloads behind Nginx.",
+    "category": "Cloud & DevOps",
+    "name": "Amazon EC2",
+    "docs": "https://docs.aws.amazon.com/ec2/"
+  },
+  {
+    "img": "/images/techs/awss3.png",
+    "desc": "Amazon S3 is an object storage service used for static assets, downloads, backups, and application files.",
+    "experience": "I use S3 to host static assets and downloadable files, including resume and portfolio resources. I am comfortable configuring objects, permissions, and integrations within broader AWS hosting workflows.",
+    "category": "Cloud & DevOps",
+    "name": "Amazon S3",
+    "docs": "https://docs.aws.amazon.com/s3/"
+  },
+  {
+    "img": "/images/techs/cloudfront.png",
+    "desc": "Amazon CloudFront is a content delivery network that improves global delivery through edge caching.",
+    "experience": "I have used CloudFront to distribute frontend assets and improve delivery performance in AWS-hosted environments. I understand how it fits with S3, DNS, SSL, and cache behavior.",
+    "category": "Cloud & DevOps",
+    "name": "Amazon CloudFront",
+    "docs": "https://docs.aws.amazon.com/cloudfront/"
+  },
+  {
     "img": "/images/techs/nginx.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "Deployment",
-    "name": "NGinX",
+    "desc": "Nginx is a high-performance web server and reverse proxy used for serving applications, routing traffic, and managing SSL.",
+    "experience": "I have configured Nginx for production deployments, static application hosting, reverse proxying, SSL, and server routing across professional and personal projects.",
+    "category": "Cloud & DevOps",
+    "name": "Nginx",
     "docs": "https://nginx.org/en/docs/"
   },
   {
     "img": "/images/techs/docker.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "Deployment",
+    "desc": "Docker packages applications and dependencies into portable containers for consistent development and deployment.",
+    "experience": "I understand Docker-based development and deployment workflows and can work with existing container configurations. It is a supporting tool in my toolkit rather than a primary area of specialization.",
+    "category": "Cloud & DevOps",
     "name": "Docker",
     "docs": "https://docs.docker.com/"
   },
   {
+    "img": "/images/techs/new-relic.png",
+    "desc": "New Relic is an observability platform for monitoring application performance, errors, and production behavior.",
+    "experience": "I have worked with New Relic in production environments to investigate frontend issues, review runtime behavior, and support performance and reliability work.",
+    "category": "Cloud & DevOps",
+    "name": "New Relic",
+    "docs": "https://docs.newrelic.com/"
+  },
+  {
+    "img": "/images/techs/ollama.png",
+    "desc": "Ollama is a local model runtime that makes it practical to run and manage large language models on personal hardware.",
+    "experience": "I use Ollama for local AI experimentation, developer tooling, and offline language-model workflows. This includes testing coding models and evaluating where local inference can improve privacy, cost, and iteration speed.",
+    "category": "AI / Machine Learning",
+    "name": "Ollama",
+    "docs": "https://ollama.com/"
+  },
+  {
+    "img": "/images/techs/huggingface.png",
+    "desc": "Local LLM workflows combine on-device model inference, orchestration, and application logic without requiring hosted model APIs.",
+    "experience": "I build and evaluate local AI workflows for coding assistance, text generation, and speech applications. My focus is on practical tradeoffs such as privacy, latency, hardware requirements, model quality, and maintainability.",
+    "category": "AI / Machine Learning",
+    "name": "Local LLM Workflows",
+    "docs": "https://huggingface.co/docs"
+  },
+  {
+    "img": "/images/techs/robot.png",
+    "desc": "AI-assisted development uses language models and related tools to accelerate coding, debugging, refactoring, documentation, and technical research.",
+    "experience": "I use AI tools as part of a disciplined engineering workflow rather than as a replacement for review and judgment. I apply them to code exploration, migration support, documentation, testing, and local automation while validating outputs through linting, builds, and direct inspection.",
+    "category": "AI / Machine Learning",
+    "name": "AI-Assisted Development",
+    "docs": "https://platform.openai.com/docs"
+  },
+  {
     "img": "/images/techs/git.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "DevTools/Workflow",
+    "desc": "Git is a distributed version-control system used to manage source code and collaborative development.",
+    "experience": "I use Git daily for feature development, code review, release preparation, debugging, and maintaining professional and open-source repositories.",
+    "category": "Developer Tools",
     "name": "Git",
     "docs": "https://git-scm.com/doc"
   },
   {
-    "img": "/images/techs/webpack.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "DevTools/Workflow",
-    "name": "Webpack",
-    "docs": "https://webpack.js.org/"
-  },
-  {
-    "img": "/images/techs/npm.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "DevTools/Workflow",
-    "name": "NPM",
-    "docs": "https://docs.npmjs.com/"
-  },
-  {
-    "img": "/images/techs/figma.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "DevTools/Workflow",
-    "name": "Figma",
-    "docs": "https://www.figma.com/best-practices/guide-to-developer-handoff/components-styles-and-documentation/"
-  },
-  {
-    "img": "/images/techs/gulp.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "DevTools/Workflow",
-    "name": "Gulp",
-    "docs": "https://gulpjs.com/docs/en/getting-started/quick-start"
-  },
-  {
     "img": "/images/techs/github.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "DevTools/Workflow",
-    "name": "Github",
+    "desc": "GitHub is a platform for source control, collaboration, code review, automation, and open-source project hosting.",
+    "experience": "I use GitHub to maintain personal and open-source projects, manage issues and pull requests, publish documentation, and run automated build and deployment workflows.",
+    "category": "Developer Tools",
+    "name": "GitHub",
     "docs": "https://github.com/"
   },
   {
     "img": "/images/techs/bitbucket.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "DevTools/Workflow",
+    "desc": "Bitbucket is a Git hosting and collaboration platform commonly integrated with Atlassian development workflows.",
+    "experience": "I use Bitbucket professionally for source control, pull requests, branch management, and collaboration across client and internal projects.",
+    "category": "Developer Tools",
     "name": "Bitbucket",
     "docs": "https://bitbucket.org/"
   },
   {
+    "img": "/images/techs/pnpm.png",
+    "desc": "pnpm is a fast, disk-efficient package manager with strong workspace and monorepo support.",
+    "experience": "pnpm is my preferred package manager for modern JavaScript and TypeScript projects. I use it across personal and professional workflows, including monorepos, automated scripts, and production build pipelines.",
+    "category": "Developer Tools",
+    "name": "pnpm",
+    "docs": "https://pnpm.io/"
+  },
+  {
+    "img": "/images/techs/npm.png",
+    "desc": "npm is a package manager and registry for JavaScript tooling and application dependencies.",
+    "experience": "I have extensive experience managing JavaScript dependencies and scripts with npm. My current workflows also use pnpm for efficient package management in modern and monorepo-based projects.",
+    "category": "Developer Tools",
+    "name": "npm",
+    "docs": "https://docs.npmjs.com/"
+  },
+  {
+    "img": "/images/techs/webpack.png",
+    "desc": "Webpack is a module bundler used to compile and optimize JavaScript, styles, and application assets.",
+    "experience": "I have configured and maintained Webpack-based applications professionally and in project work. I am comfortable debugging build pipelines, loaders, plugins, asset handling, and migration issues.",
+    "category": "Developer Tools",
+    "name": "Webpack",
+    "docs": "https://webpack.js.org/"
+  },
+  {
+    "img": "/images/techs/gulp.png",
+    "desc": "Gulp is a task runner used to automate repetitive frontend build and asset-processing workflows.",
+    "experience": "I have worked with Gulp in established frontend projects and can maintain or modernize its build tasks. Most of my current work uses framework-native tooling and newer build systems.",
+    "category": "Developer Tools",
+    "name": "Gulp",
+    "docs": "https://gulpjs.com/docs/en/getting-started/quick-start"
+  },
+  {
     "img": "/images/techs/jira.png",
-    "desc": "Coming Soon",
-    "experience": "Coming Soon",
-    "category": "DevTools/Workflow",
+    "desc": "Jira is a project-management platform for tracking software work, requirements, defects, and team delivery.",
+    "experience": "I use Jira professionally to plan and track development work, communicate implementation progress, document technical details, and coordinate with developers, designers, and project stakeholders.",
+    "category": "Developer Tools",
     "name": "Jira",
     "docs": "https://confluence.atlassian.com/jira"
+  },
+  {
+    "img": "/images/techs/figma.png",
+    "desc": "Figma is a collaborative interface-design platform used for design systems, prototypes, and developer handoff.",
+    "experience": "I use Figma to interpret designs, inspect spacing and typography, extract assets, and collaborate with designers while translating visual requirements into accessible, responsive interfaces.",
+    "category": "Developer Tools",
+    "name": "Figma",
+    "docs": "https://www.figma.com/best-practices/guide-to-developer-handoff/components-styles-and-documentation/"
   }
 ]

@@ -105,12 +105,13 @@ function Technologies({ techs }) {
         >
           <option value="Choose Category">Choose Category</option>
           <option value="Languages">Languages</option>
-          <option value="Client Side">Client Side</option>
-          <option value="Server Side">Server Side</option>
-          <option value="Database">Database</option>
+          <option value="Front-End">Front-End</option>
+          <option value="Back-End">Back-End</option>
+          <option value="CMS / Platforms">CMS / Platforms</option>
           <option value="Testing">Testing</option>
-          <option value="Deployment">Deployment</option>
-          <option value="DevTools/Workflow">DevTools/Workflow</option>
+          <option value="Cloud & DevOps">Cloud & DevOps</option>
+          <option value="AI / Machine Learning">AI / Machine Learning</option>
+          <option value="Developer Tools">Developer Tools</option>
         </select>
         <div className="animation-wrapper">
           <div className="animation-container flex w-full justify-center py-10">
