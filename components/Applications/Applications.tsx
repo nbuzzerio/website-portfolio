@@ -1,6 +1,25 @@
 import Image from "next/image";
 import applicationCards from "../../data/application_cards.json";
 
+type ProjectClickSource = "thumbnail" | "cta";
+
+function createProjectSlug(title: string) {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "_")
+    .replace(/^_+|_+$/g, "");
+}
+
+function trackProjectClick(title: string, source: ProjectClickSource) {
+  const projectSlug = createProjectSlug(title);
+
+  void window.zaraz?.track(`project_${projectSlug}_${source}_click`, {
+    project: title,
+    section: "featured_projects",
+    source,
+  });
+}
+
 function Applications() {
   return (
     <section
@@ -27,6 +46,7 @@ function Applications() {
                 target="_blank"
                 rel="noreferrer"
                 aria-label={`Open ${app.title}`}
+                onClick={() => trackProjectClick(app.title, "thumbnail")}
               >
                 <div className="appThumbnail group aspect-[1.33] w-full">
                   <div className="appThumbnailInner relative h-full w-full transition-transform duration-700 group-hover:[transform:rotateY(180deg)]">
@@ -69,6 +89,7 @@ function Applications() {
                   href={app.linkUrl}
                   target="_blank"
                   rel="noreferrer"
+                  onClick={() => trackProjectClick(app.title, "cta")}
                 >
                   {app.linkText}
                 </a>

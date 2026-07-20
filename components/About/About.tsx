@@ -99,16 +99,6 @@ function About() {
               development with local AI, developer tooling, and interactive
               learning experiences.
             </p>
-
-            <a
-              id="resume"
-              className="mt-8 block text-white underline"
-              target="_blank"
-              rel="noreferrer"
-              href="https://nb-portfolio-images.s3.amazonaws.com/Nicholas.Buzzerio.Resume.pdf"
-            >
-              View Resume
-            </a>
           </div>
         </div>
       </div>

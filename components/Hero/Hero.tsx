@@ -3,6 +3,23 @@
 import Link from "next/link";
 import { rubikDistressed } from "@/lib/fonts";
 
+declare global {
+  interface Window {
+    zaraz?: {
+      track: (
+        eventName: string,
+        properties?: Record<string, string | number | boolean>
+      ) => Promise<void>;
+    };
+  }
+}
+
+function trackEvent(eventName: string) {
+  void window.zaraz?.track(eventName, {
+    section: "hero",
+  });
+}
+
 export default function Hero() {
   return (
     <section
@@ -60,22 +77,44 @@ export default function Hero() {
           )}
         </ul>
 
-        <div className="mt-8 flex flex-wrap justify-center gap-6 text-base xl:text-lg 2xl:text-xl">
-          <Link
-            href="#projects"
-            scroll={false}
-            className="rounded-lg bg-white px-8 py-4 font-semibold text-black transition hover:bg-gray-200"
-          >
-            View Projects
-          </Link>
-
+        <div className="mt-8 flex flex-wrap justify-center gap-4 text-base xl:text-lg 2xl:text-xl">
           <a
             href="mailto:nick.buzzerio@gmail.com"
-            className="rounded-lg border border-white px-8 py-4 font-semibold transition hover:bg-white hover:text-black"
+            onClick={() => trackEvent("contact_click")}
+            className="rounded-lg bg-white px-8 py-4 font-semibold text-black transition hover:bg-gray-200"
           >
             Get in Touch
           </a>
+
+          <a
+            href="https://nb-portfolio-images.s3.amazonaws.com/Nicholas.Buzzerio.Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => trackEvent("resume_click")}
+            className="rounded-lg border border-white px-8 py-4 font-semibold transition hover:bg-white hover:text-black"
+          >
+            Resume
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/nicholasbuzzerio/"
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={() => trackEvent("linkedin_click")}
+            className="rounded-lg border border-white px-8 py-4 font-semibold transition hover:bg-white hover:text-black"
+          >
+            LinkedIn
+          </a>
         </div>
+
+        <Link
+          href="#projects"
+          onClick={() => trackEvent("projects_click")}
+          scroll={false}
+          className="mt-5 inline-block text-sm font-semibold text-white/80 underline decoration-white/40 underline-offset-4 transition hover:text-white xl:text-base"
+        >
+          View Projects
+        </Link>
       </div>
     </section>
   );

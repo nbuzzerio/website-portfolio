@@ -1,5 +1,5 @@
-# This workflow will do a clean installation of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-nodejs
+# This workflow installs dependencies, builds the portfolio, and restarts
+# the applications managed by PM2 on the self-hosted server.
 
 name: Node.js CI
 
@@ -14,49 +14,44 @@ jobs:
     strategy:
       matrix:
         node-version: [18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Check out repository
+        uses: actions/checkout@v4
+
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
           cache: "npm"
 
-      # Check if pm2 process with name 'portfolio' exists
-      - name: Check if pm2 process exists
+      - name: Check for PM2 processes
         id: pm2_check
         run: |
-          if pm2 list | grep -q "portfolio"; then
-            echo "::set-output name=exists::true"
+          if pm2 jlist | grep -q '"name"'; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
           else
-            echo "::set-output name=exists::false"
+            echo "exists=false" >> "$GITHUB_OUTPUT"
           fi
 
-      # Stop pm2 process if it exist
-      - name: Stop pm2 process
+      - name: Stop all PM2 processes
         if: steps.pm2_check.outputs.exists == 'true'
         run: pm2 stop all
 
-      #Install npm packages
       - name: Install npm packages
-        run: npm i
+        run: npm ci
 
-      # Run the build
       - name: Build for production
         run: npm run build --if-present
 
-      # Start pm2 process if it doesn't exist
-      - name: Start pm2 process
-        if: steps.pm2_check.outputs.exists == 'false'
+      - name: Create portfolio PM2 process
+        if: success() && steps.pm2_check.outputs.exists == 'false'
         run: pm2 start npm --name portfolio -- start
 
-      # Save pm2 process if it did not exist for system reboot
-      - name: Save pm2 process
-        if: steps.pm2_check.outputs.exists == 'false'
-        run: pm2 save
+      - name: Restart all PM2 processes
+        if: always()
+        run: pm2 restart all || true
 
-      # Restart pm2 process
-      - name: Restart pm2 process
-        run: pm2 restart all
+      - name: Save PM2 process list
+        if: success()
+        run: pm2 save
