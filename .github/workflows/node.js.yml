@@ -11,6 +11,10 @@ jobs:
   build:
     runs-on: self-hosted
 
+    env:
+      HOME: /root
+      PM2_HOME: /root/.pm2
+
     strategy:
       matrix:
         node-version: [18.x]
@@ -28,7 +32,7 @@ jobs:
       - name: Check for PM2 processes
         id: pm2_check
         run: |
-          if pm2 jlist | grep -q '"name"'; then
+          if /usr/bin/pm2 jlist | grep -q '"name"'; then
             echo "exists=true" >> "$GITHUB_OUTPUT"
           else
             echo "exists=false" >> "$GITHUB_OUTPUT"
@@ -36,7 +40,7 @@ jobs:
 
       - name: Stop all PM2 processes
         if: steps.pm2_check.outputs.exists == 'true'
-        run: pm2 stop all
+        run: /usr/bin/pm2 stop all
 
       - name: Install npm packages
         run: npm ci
@@ -46,12 +50,12 @@ jobs:
 
       - name: Create portfolio PM2 process
         if: success() && steps.pm2_check.outputs.exists == 'false'
-        run: pm2 start npm --name portfolio -- start
+        run: /usr/bin/pm2 start npm --name portfolio -- start
 
       - name: Restart all PM2 processes
         if: always()
-        run: pm2 restart all || true
+        run: /usr/bin/pm2 restart all || true
 
       - name: Save PM2 process list
         if: success()
-        run: pm2 save
+        run: /usr/bin/pm2 save
