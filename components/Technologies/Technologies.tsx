@@ -33,7 +33,12 @@ function Technologies({ techs }) {
       <div
         className={`tech-card ${tech.name} pointer-events-none absolute m-1 flex aspect-square animate-cornerAppear cursor-pointer flex-col items-start overflow-hidden rounded-3xl bg-primary/50 p-3 transition-transform delay-75 duration-150 hover:scale-125 sm:m-3 lg:flex-row lg:bg-primary/25`}
         key={index}
-        onClick={(e) => handleClick(e)}
+        onClick={(e) =>
+          handleClick(e, {
+            name: tech.name,
+            category: tech.category,
+          })
+        }
         style={{
           width: `${100 / (cols + space)}%`,
           transform: `translate(${

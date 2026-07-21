@@ -29,7 +29,7 @@ function Applications() {
     >
       <h2
         id="projects-heading"
-        className="py-10 text-5xl text-white underline lg:text-7xl"
+        className="py-10 text-5xl text-white underline lg:text-7xl text-center"
       >
         Featured Projects
       </h2>

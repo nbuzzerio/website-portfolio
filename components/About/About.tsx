@@ -65,7 +65,7 @@ function About() {
         />
       </div>
 
-      <div className="section-path relative mx-auto flex h-screen w-full max-w-[1920px] translate-x-1/2 flex-col items-center justify-center bg-primary-dark py-5 sm:py-32 md:h-auto md:flex-row">
+      <div className="section-path relative mx-auto flex min-h-screen w-full max-w-[1920px] translate-x-1/2 flex-col items-center justify-center bg-primary-dark py-5 sm:py-32 md:h-auto md:flex-row">
         <div className="left-panel flex w-full flex-col items-center justify-center sm:px-10 md:w-6/12 md:px-20 2xl:px-32" />
 
         <div className="right-panel flex w-full flex-col items-center justify-start px-10 sm:px-32 md:w-6/12 md:px-20 2xl:px-32">

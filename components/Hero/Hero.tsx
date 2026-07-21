@@ -25,7 +25,7 @@ export default function Hero() {
     <section
       id="hero"
       role="banner"
-      className="relative flex min-h-screen w-full flex-col items-center justify-center bg-gradient-to-b from-primary to-black px-6 text-center text-white"
+      className="relative flex mb-10 xs:mb-auto min-h-screen w-full flex-col items-center justify-center bg-gradient-to-b from-primary to-black px-6 text-center text-white"
     >
       <Link
         href="#main"
